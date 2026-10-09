@@ -1,0 +1,11 @@
+{
+  "title": "MFD verification code: metriplectic discrete-gradient model of dissipation-capped relaxation",
+  "upload_type": "software",
+  "description": "Simulation and verification code, raw data (300 deterministic trials), and scripts that regenerate every table and figure of the article 'A Metriplectic Discrete-Gradient Model of Dissipation-Capped Relaxation: Monotone Integration, a Two-Regime Time Decomposition, and a Circulation-Induced Crossover' (submitted to the Journal of Statistical Physics).",
+  "creators": [
+    {"name": "Sendo, Hazime", "orcid": "0009-0007-3285-0308"}
+  ],
+  "license": "Apache-2.0",
+  "keywords": ["metriplectic dynamics", "discrete gradient methods", "structure-preserving integration", "non-equilibrium relaxation", "Go model"],
+  "access_right": "open"
+}
