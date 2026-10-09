@@ -7,6 +7,7 @@ authors:
     given-names: Hazime
     orcid: "https://orcid.org/0009-0007-3285-0308"
 version: "1.0.0"
+doi: 10.5281/zenodo.23263201
 license: Apache-2.0
 repository-code: "https://github.com/Hazime-Sendo/mfd-core"
 keywords:
