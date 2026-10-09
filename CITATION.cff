@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it together with the associated article."
+title: "MFD verification code: metriplectic discrete-gradient model of dissipation-capped relaxation"
+type: software
+authors:
+  - family-names: Sendo
+    given-names: Hazime
+    orcid: "https://orcid.org/0009-0007-3285-0308"
+version: "1.0.0"
+license: Apache-2.0
+repository-code: "https://github.com/Hazime-Sendo/mfd-core"
+keywords:
+  - metriplectic dynamics
+  - discrete gradient methods
+  - structure-preserving integration
+  - non-equilibrium relaxation
+  - Go model
+abstract: >-
+  Simulation and verification code accompanying "A Metriplectic Discrete-Gradient Model of
+  Dissipation-Capped Relaxation: Monotone Integration, a Two-Regime Time Decomposition, and a
+  Circulation-Induced Crossover" (submitted to the Journal of Statistical Physics).

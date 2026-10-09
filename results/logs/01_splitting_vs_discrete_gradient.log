@@ -1,0 +1,6 @@
+split (naive operator splitting) stable cells: 65 / 112
+dg (unified discrete-gradient) stable cells:   80 / 112
+dg with step bisection monotone cells:           112 / 112
+cells where the plain-Newton unified step increased U: 0
+cells where splitting increased U: 47 (non-finite otherwise)
+wrote ./scripts/../results/fig2_data.json

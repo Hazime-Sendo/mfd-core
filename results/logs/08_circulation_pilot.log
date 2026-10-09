@@ -1,0 +1,2 @@
+a=0.0: circulation = 0.001 +/- 0.004 (n=4 realizations: [-0.006  0.012 -0.005  0.   ])
+a=1.0: circulation = 0.458 +/- 0.004 (n=4 realizations: [0.446 0.465 0.457 0.463])

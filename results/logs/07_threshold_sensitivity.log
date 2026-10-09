@@ -1,0 +1,30 @@
+=== a=0.0, D_max=200.0 (seeds 0-9) ===
+  baseline      : N U N N N L N M N M
+  hold=3        : N U N N N L N M N M
+  hold=10       : N U N N N L N M N M
+  sat_frac=0.6  : N U N N N L N M N M
+  sat_frac=0.9  : N U N N N L N M N M
+  noise_k=0.15  : N U N N N L N M N M
+  noise_k=0.5   : N U N N N L N M N M
+  q_fold=0.8    : N U N N N L N M N M
+  q_fold=0.95   : N U N N N L N M N M
+  rmsd_fold=0.3 : N U N L L L L M N M  <- 3 differ from baseline
+  rmsd_fold=0.7 : N U N N N M N M N M  <- 1 differ from baseline
+  eps_U=1e-3    : N L N N N L L M N M  <- 2 differ from baseline
+  eps_U=1e-5    : N U N N N L U M N M  <- 1 differ from baseline
+
+=== a=4.0, D_max=500.0 (seeds 0-9) ===
+  baseline      : N N M N N M M N N M
+  hold=3        : N N M N N M M N N M
+  hold=10       : N N M N N M M N N M
+  sat_frac=0.6  : N N M N N M M N N M
+  sat_frac=0.9  : N N M N N M M N N M
+  noise_k=0.15  : N N M N N M M N N M
+  noise_k=0.5   : N N M N N M M N N M
+  q_fold=0.8    : N N M N N M M N N M
+  q_fold=0.95   : N N M N N M M N N M
+  rmsd_fold=0.3 : N N M N N M L N N L  <- 2 differ from baseline
+  rmsd_fold=0.7 : N N M N N M M N N M
+  eps_U=1e-3    : N N M N N M M N N M
+  eps_U=1e-5    : N N M N N M M N N M
+

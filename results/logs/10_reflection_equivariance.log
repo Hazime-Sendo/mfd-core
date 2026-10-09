@@ -1,0 +1,35 @@
+a = 0
+  seed 0:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 1:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 2:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 3:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 4:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 5: KINETIC_TRAP -> reflected KINETIC_TRAP (expected KINETIC_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 6:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 7:  MIRROR_TRAP -> reflected       NATIVE (expected       NATIVE) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 8:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 9:  MIRROR_TRAP -> reflected       NATIVE (expected       NATIVE) OK  |dt|=0 max|dU|=0 max|dx|=0
+a = 4
+  seed 0:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 1:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 2:  MIRROR_TRAP -> reflected       NATIVE (expected       NATIVE) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 3:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 4:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 5:  MIRROR_TRAP -> reflected       NATIVE (expected       NATIVE) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 6:  MIRROR_TRAP -> reflected       NATIVE (expected       NATIVE) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 7:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 8:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 9:  MIRROR_TRAP -> reflected       NATIVE (expected       NATIVE) OK  |dt|=0 max|dU|=0 max|dx|=0
+a = 16
+  seed 0:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 1:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 2:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 3:  MIRROR_TRAP -> reflected       NATIVE (expected       NATIVE) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 4:  MIRROR_TRAP -> reflected       NATIVE (expected       NATIVE) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 5:  MIRROR_TRAP -> reflected       NATIVE (expected       NATIVE) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 6:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 7:       NATIVE -> reflected  MIRROR_TRAP (expected  MIRROR_TRAP) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 8:  MIRROR_TRAP -> reflected       NATIVE (expected       NATIVE) OK  |dt|=0 max|dU|=0 max|dx|=0
+  seed 9:  MIRROR_TRAP -> reflected       NATIVE (expected       NATIVE) OK  |dt|=0 max|dU|=0 max|dx|=0
+
+label swap and identical time in 30/30 runs; worst |dt|=0, worst max|dU|=0, worst max|dx|=0
