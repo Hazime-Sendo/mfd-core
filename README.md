@@ -82,8 +82,10 @@ corrected in the manuscript; details in `docs/manuscript_corrections.md`.
 
 ## Citation and release
 
-See `CITATION.cff` / `.zenodo.json`. A Zenodo DOI will be minted from a tagged GitHub release and
-added here (TODO: insert DOI after release).
+See `CITATION.cff` / `.zenodo.json`.
+
+- Archived on Zenodo: v1.0.0, DOI [10.5281/zenodo.23263201](https://doi.org/10.5281/zenodo.23263201)
+- All versions (always the latest): DOI [10.5281/zenodo.23263200](https://doi.org/10.5281/zenodo.23263200)
 
 ## License
 
