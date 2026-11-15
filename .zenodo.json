@@ -1,7 +1,7 @@
 {
   "title": "MFD verification code: metriplectic discrete-gradient model of dissipation-capped relaxation",
   "upload_type": "software",
-  "description": "Simulation and verification code, raw data (300 deterministic trials), and scripts that regenerate every table and figure of the article 'A Metriplectic Discrete-Gradient Model of Dissipation-Capped Relaxation: Monotone Integration, a Two-Regime Time Decomposition, and a Circulation-Induced Crossover' (submitted to the Journal of Statistical Physics).",
+  "description": "Simulation and verification code, raw data (300 deterministic trials), and scripts that regenerate every table and figure of the manuscript 'A Metriplectic Discrete-Gradient Model of Dissipation-Capped Relaxation: Monotone Integration, a Two-Regime Time Decomposition, and a Circulation-Induced Crossover' (manuscript in preparation).",
   "creators": [
     {"name": "Sendo, Hazime", "orcid": "0009-0007-3285-0308"}
   ],
