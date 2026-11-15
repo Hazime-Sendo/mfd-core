@@ -4,7 +4,7 @@ Reproduction code, raw data and scripts for
 
 > H. Sendo, "A Metriplectic Discrete-Gradient Model of Dissipation-Capped Relaxation:
 > Monotone Integration, a Two-Regime Time Decomposition, and a Circulation-Induced
-> Crossover," submitted to *Journal of Statistical Physics* (2026).
+> Crossover," manuscript in preparation (2026).
 
 Everything here is produced by deterministic, seeded numerical simulation (no physical
 experimental data). Every table, figure and quantitative claim of the paper can be regenerated.
@@ -84,10 +84,10 @@ corrected in the manuscript; details in `docs/manuscript_corrections.md`.
 
 See `CITATION.cff` / `.zenodo.json`.
 
-- Archived on Zenodo: v1.0.0, DOI [10.5281/zenodo.23263201](https://doi.org/10.5281/zenodo.23263201)
-- All versions (always the latest): DOI [10.5281/zenodo.23263200](https://doi.org/10.5281/zenodo.23263200)
+- Version 1.0.0: https://doi.org/10.5281/zenodo.23263201
+- All versions (latest): https://doi.org/10.5281/zenodo.23263200
 
 ## License
 
-Code, data and scripts: Apache License 2.0 (`LICENSE`). The manuscript is distributed separately
-under CC BY-SA 4.0 and is not part of this repository.
+Code, data and scripts: Apache License 2.0 (`LICENSE`). The manuscript is not part of this
+repository; its copyright and reuse terms are governed by the publisher's agreement.
