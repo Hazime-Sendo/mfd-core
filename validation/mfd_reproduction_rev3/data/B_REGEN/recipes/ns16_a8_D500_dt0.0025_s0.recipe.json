@@ -1,0 +1,35 @@
+{
+ "trial_id": "ns16_a8_D500_dt0.0025_s0",
+ "ns": 16,
+ "a": 8.0,
+ "D": 500.0,
+ "seed": 0,
+ "DT": 0.0025,
+ "initial_condition": "m51.init_chain(seed): straight line x_i=(i,0,0) + 0.1*N(0,1) from numpy default_rng(seed)",
+ "stop_conditions": {
+  "T_MAX": 100.0,
+  "G_TOL": 0.01,
+  "HOLD": 5.0,
+  "ext": "min +10 tu until grad-converged; beyond +40 tu until +100 tu"
+ },
+ "code_sha256": {
+  "51_main_run_v3.py": "8c4a838a80e133bed7b1757f1bbf038391c460025d5089f5fd4b8f1541ce6cf5",
+  "52_indices_v3.py": "544c451aac99a2ba2b27fc27226e47a1f1b6b715daf23d65714534faa120d3ae",
+  "mfd_discrete_gradient.py": "b3dc37b1e0145f65c1be7dea66b933cd4fe7c41eafc2cf75827611900c9353c3",
+  "metriplectic_folding.py": "5aaadb299400482fa07d524c6061a2b222f5d39be677a826dddc84d204e9636d"
+ },
+ "env": {
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "machine": "x86_64",
+  "blas": "scipy-openblas",
+  "threads_env": {
+   "OMP_NUM_THREADS": null,
+   "OPENBLAS_NUM_THREADS": null,
+   "MKL_NUM_THREADS": null
+  }
+ },
+ "expected_arrays_sha256": "e30dcfc24e4a5035ad76344896141ffc0325136c76203635107f66fbecbfa3c0"
+}

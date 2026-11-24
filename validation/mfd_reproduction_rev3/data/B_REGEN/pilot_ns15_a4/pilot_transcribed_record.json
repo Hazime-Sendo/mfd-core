@@ -1,0 +1,19 @@
+{
+ "evidence_type": "編成統括による対話記録からの転記(原始端末ログではない)",
+ "source_of_record": "編成統括が保持する先行検証の対話記録。クロは原対話記録を受領・閲覧していない(第9号追加指示 第2号の記載を転記)",
+ "route": "B-REGEN 先行1軌道(PILOT)",
+ "trajectory": "ns15_a4_D500_dt0.0025_s0",
+ "ns": 15, "a": 4, "DT": 0.0025, "seed": 0, "D": 500,
+ "environment": {"python": "3.13.18", "numpy": "2.5.3", "scipy": "1.18.1"},
+ "results_as_transcribed": {
+  "HASH_MATCH": true, "ARRAY_COUNT": 12, "FULL_HASH_MATCH": true, "TIER1_ARRAYS_PASS": "10/10",
+  "INDICES_MATCH": true, "CLASSES_PASS": "4/4", "ORIGINAL_UNCHANGED": true,
+  "ELAPSED_SECONDS": 23.912056113000062, "PILOT": "PASS"},
+ "arrays_content_hash": {"actual_as_transcribed": "70c958e25564e506e4397cae9223aa619659606d95beffd9b6f75c2db0862a2c", "expected_as_transcribed": "70c958e25564e506e4397cae9223aa619659606d95beffd9b6f75c2db0862a2c"},
+ "claude_checks_on_transcription": {
+  "expected_hash_equals_ledger_arrays_sha256": true,
+  "ledger_recipe_env_python_numpy_scipy_equal_transcribed_env": true,
+  "note": "クロが確認できたのは、転記された期待値が台帳の値と一致すること、環境表記が台帳レシピの記録と一致することのみ。再生成の実行そのものは確認していない(原ログ未受領)"},
+ "distinct_from": "一括9軌道の原本ログ(05_B_REGEN/existing_logs/MFD_B_REGEN_result.log。SHA-256 4f126b8a…ab394。原始端末ログ)。両者は証拠形態が異なり混同しない",
+ "status": "TRANSCRIBED_BY_COORDINATOR / NOT_INDEPENDENTLY_VERIFIED / NOT_EXECUTED_BY_INDEPENDENT_PARTY"
+}

@@ -1,0 +1,179 @@
+{
+ "title": "MFD Stage-3 execution manifest (No.10 audit-response revision) - NOT AN EXECUTION PERMIT",
+ "execution_status": "NOT_AUTHORIZED: main (6400) and aux (660) runs have not been started. Each set needs its OWN signed authorization record issued by the research lead after the independent re-audit",
+ "auto_start": false,
+ "workers": 2,
+ "aggregator": "single process (workers compute only; no file writes)",
+ "frozen_conditions": {
+  "equations_of_motion": "unchanged",
+  "integrator": "Gonzalez discrete gradient, unchanged",
+  "main_DT": 0.005,
+  "aux_DT": 0.0025,
+  "T_MAX_tu": 100,
+  "conditional_extension": "+10 tu min until ||grad U||_2<=1e-2 over 5 tu; if not converged at +40 tu continue to +100 tu",
+  "U_thresholds": [
+   0.01,
+   0.03,
+   0.1,
+   0.3
+  ],
+  "V5": "fail (68% < 80%) - unchanged",
+  "U_end<=0.01": "candidate only, pending independent verification",
+  "a16": "unresolved",
+  "unconverged": "formal result"
+ },
+ "trial_tables": {
+  "main": {
+   "path": "../results/stage3_main/run_table.csv",
+   "n": 6400,
+   "sha256": "ed90b3503d0d754926cde1e73472c442c4227a6eb474b5191b19000eb8914848",
+   "DT": 0.005,
+   "key_map": "freeze/main_trial_key_map.csv",
+   "key_map_sha256": "94dd4d43cbb4f7645af22208736fe72bc8079d46ba3b7c7dfe1968ec2f37615e"
+  },
+  "aux": {
+   "path": "freeze/aux_run_table.csv",
+   "n": 660,
+   "sha256": "1f5fe3a28fc9772c709a323aac0cbf1f6abb9db18a1f422ef5791f70dea6d509",
+   "DT": 0.0025,
+   "key_map": "freeze/aux_trial_key_map.csv",
+   "key_map_sha256": "e9fb66597d45b5246d8551986fbb7bd27fcbc541c6a44a3855a87d7d98282ec1",
+   "composition": {
+    "aux_dmax_extra_landscape": "10 landscapes {2,4,5,9,10,12,15,16,17,18} x a{4,8,16} x seeds 0-19 at D_max=500 = 600",
+    "aux0": "ns{5,2,12} x a=0 x seeds 0-19 at D_max=500 = 60"
+   }
+  }
+ },
+ "retention": {
+  "seed": 20261121,
+  "fraction": 0.1,
+  "algorithm": "u=int.from_bytes(SHA256('{seed}:{trial_key}')[:8],'big')/2**64; optional full trajectory iff u<0.10 and not mandatory; result-independent; one full file per trial",
+  "mandatory_full": [
+   "a>=16",
+   "status REVIEW",
+   "status FAIL",
+   "status CENSORED"
+  ],
+  "preview_optional_selected_among_a_lt_16": {
+   "main": 499,
+   "aux": 38
+  },
+  "preview_a_ge_16": {
+   "main": 1600,
+   "aux": 200
+  }
+ },
+ "budgets": {
+  "main": {
+   "time_s": 36000,
+   "hard_bytes": 5000000000,
+   "soft_bytes": 4500000000,
+   "time_enforced_by_code": false,
+   "note": "time budget is monitored (ETA), not enforced by MFDRunner.run"
+  },
+  "aux": {
+   "time_s": 9000,
+   "hard_bytes": 1500000000,
+   "soft_bytes": 1350000000,
+   "time_enforced_by_code": false
+  },
+  "free_disk_margin_bytes": 200000000,
+  "prediction_safety_factor": 1.15,
+  "prediction_overhead_bytes": 20000000,
+  "note_aux_budget": "aux 2.5 h / 1.5 GB taken from the instruction plan; soft = 90% of hard (same ratio as 4.5/5 GB)",
+  "time_operation": "monitoring + safe-stop procedure (option B of mfd_rbsh_v2_time_budget_operation.md; recommended, awaiting the research lead's decision); monitor: mfd_rbsh_v2_progress.py (read-only)"
+ },
+ "roles": {
+  "soft_limit": "operating limit: store decisions (optional skipped first) and pre-run prediction",
+  "hard_limit": "absolute ceiling: periodic end-state scan; exceeding stops safely",
+  "priority": [
+   "ledger+tier1+recipe",
+   "mandatory full",
+   "optional full"
+  ]
+ },
+ "audit_states": [
+  "PASS",
+  "REVIEW",
+  "FAIL",
+  "CENSORED"
+ ],
+ "a16_never_PASS": true,
+ "completion_states": {
+  "COMPLETE": "only state skipped on resume",
+  "INCOMPLETE": "computed but mandatory storage not finished; reprocessed",
+  "FAILED_STORAGE": "storage failure; reprocessed",
+  "INTERRUPTED": "completion not confirmable; reprocessed"
+ },
+ "storage_rules": {
+  "tier1": "always (npz)",
+  "full": "M2 (byte-shuffle + LZMA preset 6; per-array and container SHA-256; tmp+fsync+os.replace; read-back verify)",
+  "recipe": "always in ledger",
+  "existing_identical_file": "reused",
+  "existing_differing_file": "moved to quarantine/, never deleted",
+  "ledger": "append-only; torn lines preserved in ledger_torn.jsonl"
+ },
+ "stop_conditions": [
+  "mandatory full trajectory cannot be stored (capacity / free disk / write failure) -> safe stop after writing a non-COMPLETE ledger row",
+  "prediction + used > soft limit at start",
+  "hard limit exceeded in scan",
+  "worker death (BrokenProcessPool) -> WORKER_DIED + RunInterrupted",
+  "table hash mismatch (driver refuses)"
+ ],
+ "resume_conditions": [
+  "rerun same command; done set = COMPLETE ledger rows only; torn ledger lines preserved; orphan files reused/quarantined; attempts and previous_states recorded"
+ ],
+ "environment": {
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "blas": "scipy-openblas 0.3.34.106.0 (OpenBLAS, DYNAMIC_ARCH)",
+  "platform": "Linux-6.18.44-fc-v653-x86_64-with-glibc2.39",
+  "thread_env_recommended": {
+   "OPENBLAS_NUM_THREADS": "1",
+   "OMP_NUM_THREADS": "1"
+  },
+  "thread_determinism_check": "2 trials, OPENBLAS threads 1/2/default: identical array SHA-256 (thread_determinism.txt); limited (2 cores)"
+ },
+ "driver": "mfd_rbsh_v2_run_driver.py (default dry-run incl. freeze-manifest verification; --execute needs --auth-file + key via MFD_RBSH_AUTH_KEY/--key-file; see authorization_guard)",
+ "history_notes": [
+  "v9: pre-0-d-fix controller hash was not recorded (kept as history note)",
+  "v9 bundle MANIFEST.sha256 listed itself (empty-file hash) -> self-check shows 1 FAILED line; not a data defect; v10 manifest excludes itself",
+  "integration script v10: wrong v9 ledger path fixed once (verification code only), rerun; hash before 3e33b0bf..., after df681faa...",
+  "No.10 audit: legacy (no 'completion') ledger rows were interpreted as COMPLETE (fixed: refused); unknown free space was treated as storable (fixed); env-var-only execution guard replaced by signed per-set authorization",
+  "No.10 final bundle (rbsh3) is superseded by rbsh4; its files are kept as history"
+ ],
+ "freeze_manifest": "mfd_rbsh_v2_freeze_manifest.sha256",
+ "authorization_guard": {
+  "module": "mfd_rbsh_v2_run_guard.py",
+  "issuer_tool": "mfd_rbsh_v2_auth_tool.py (research lead only: keygen / issue / verify)",
+  "schema": "mfd-rbsh-v2-authorization-1",
+  "record_binds": [
+   "set (main|aux)",
+   "approval_id (8-64 chars)",
+   "approver",
+   "validity window (UTC)",
+   "trial table SHA-256 and count",
+   "execution manifest SHA-256",
+   "freeze manifest SHA-256"
+  ],
+  "signature": "HMAC-SHA256 with a secret key held by the research lead and supplied at run time (not stored in the repository)",
+  "checks_at_execute": [
+   "signature",
+   "set equals --set",
+   "validity window",
+   "execution-manifest and freeze-manifest hashes",
+   "every freeze-manifest entry re-hashed",
+   "freeze manifest covers table and execution manifest",
+   "table hash/count",
+   "output directory bound to one set and one approval id (RUN_START events)"
+  ],
+  "independent_per_set": true,
+  "limits": "stops accidental, stale, mismatched or key-less executions; cannot stop someone who holds both key and files"
+ },
+ "ledger_rules": {
+  "legacy_or_foreign_rows": "run refused (LedgerFormatError), nothing written or reinterpreted",
+  "complete_row_trust": "COMPLETE rows are re-verified on resume (tier-1 size, full-trajectory existence and SHA-256, mandatory stored); failures are demoted to INTERRUPTED and re-run",
+  "free_space_unknown": "treated as not storable: safe stop / refusal to start"
+ }
+}

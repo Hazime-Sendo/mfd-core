@@ -1,0 +1,173 @@
+[
+ {
+  "trajectory": "ns10_a16_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "4589eb076f2d9f3be29d4ed1a1e6348ec356911d8e955f360e7117f403aad800",
+  "store": {
+   "tier1_bytes": 52485,
+   "full_bytes": 434658,
+   "full_stored": true,
+   "skip_reason": null,
+   "store_error": null,
+   "full_sha256": "74e2faee2b24dcc3be06594caddd84c62107c66fe7ed01db01639b554c903e32"
+  },
+  "classes": {
+   "0.01": "mirror",
+   "0.03": "mirror",
+   "0.1": "mirror",
+   "0.3": "mirror"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns12_a16_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "03af38644e35887f8ed445f6d6abe305694d1c5c2b999232724d7ee0e71f9ddc",
+  "store": {
+   "tier1_bytes": 60655,
+   "full_bytes": 508539,
+   "full_stored": true,
+   "skip_reason": null,
+   "store_error": null,
+   "full_sha256": "61d3362e93a87c8d50d3447187c64c65e010a8345ba6321f18ec4f1ff571a23e"
+  },
+  "classes": {
+   "0.01": "mirror",
+   "0.03": "mirror",
+   "0.1": "mirror",
+   "0.3": "mirror"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns16_a16_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "52cdffae6fef8ed621616d14d597f4fe01398bcaa3fdc2ba543c3dd7b14e7d65",
+  "store": {
+   "tier1_bytes": 56896,
+   "full_bytes": 480861,
+   "full_stored": true,
+   "skip_reason": null,
+   "store_error": null,
+   "full_sha256": "b8313e475af733ed42f848c3d78350940ceaac73166aac3c55aa322b9d1c73a0"
+  },
+  "classes": {
+   "0.01": "mirror",
+   "0.03": "mirror",
+   "0.1": "mirror",
+   "0.3": "mirror"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns17_a8_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "d6148d7d2bbabe7c5a880377bdddc9093309746d245949fc66bc31fb0a739b47",
+  "store": {
+   "tier1_bytes": 57925,
+   "full_bytes": 473922,
+   "full_stored": true,
+   "skip_reason": null,
+   "store_error": null,
+   "full_sha256": "080ab454db30bcef447bf8718b441ef0fccedb0f0a59d969834b808266f9e646"
+  },
+  "classes": {
+   "0.01": "native",
+   "0.03": "native",
+   "0.1": "native",
+   "0.3": "native"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns18_a16_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "36ee388d83f538657c7cb474293eb27c2547c770821ed082713ac63d06870484",
+  "store": {
+   "tier1_bytes": 54877,
+   "full_bytes": 436042,
+   "full_stored": true,
+   "skip_reason": null,
+   "store_error": null,
+   "full_sha256": "3e8952208bb79acbf3e2f53cc24c69eb3d9e3f87a098db8639b1f5cb90020aa9"
+  },
+  "classes": {
+   "0.01": "mirror",
+   "0.03": "mirror",
+   "0.1": "mirror",
+   "0.3": "mirror"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns18_a4_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "47ac07c13a3d2ceb0c3ef4193e425d9885063d4a31bcfb921f545db4230429a5",
+  "store": {
+   "tier1_bytes": 53587,
+   "full_bytes": 431057,
+   "full_stored": true,
+   "skip_reason": null,
+   "store_error": null,
+   "full_sha256": "e298a8ed89538f2692f3a95d07d2266a49db1fbfe95622ff090bb5dfeb85574c"
+  },
+  "classes": {
+   "0.01": "stagnation",
+   "0.03": "stagnation",
+   "0.1": "stagnation",
+   "0.3": "native"
+  },
+  "labels_partial": 1
+ },
+ {
+  "trajectory": "ns4_a16_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "8b63301d19a0d2b5ee7afeba189dddad64cffbcf3f984e553bf8ec0e5d91eede",
+  "store": {
+   "tier1_bytes": 53472,
+   "full_bytes": 428625,
+   "full_stored": true,
+   "skip_reason": null,
+   "store_error": null,
+   "full_sha256": "2cc27acba4d24845d5a2a94912a08c6251b8b80f4f468b73fa0b6bd3e28832d1"
+  },
+  "classes": {
+   "0.01": "native",
+   "0.03": "native",
+   "0.1": "native",
+   "0.3": "native"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns4_a8_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "5898bda08f6b64055dfdf5e7bae9a6b245fdad8a4f3dd71dd4e40b3385a4877f",
+  "store": {
+   "tier1_bytes": 54144,
+   "full_bytes": 425149,
+   "full_stored": true,
+   "skip_reason": null,
+   "store_error": null,
+   "full_sha256": "53c4ab3d4123b7ea1885ba290a73ad97b32155c0584ba908a010c6c5321ae6ce"
+  },
+  "classes": {
+   "0.01": "native",
+   "0.03": "native",
+   "0.1": "native",
+   "0.3": "native"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns5_a16_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "33864cb629b5f774a55d95b544cd1f2bfadda2d749c9e75386e6c1d8b06116e8",
+  "store": {
+   "tier1_bytes": 97143,
+   "full_bytes": 819398,
+   "full_stored": true,
+   "skip_reason": null,
+   "store_error": null,
+   "full_sha256": "272b668dd638e7b42203c0e24ed79503e6833d0b6ff2bc00513cc2ced36587ac"
+  },
+  "classes": {
+   "0.01": "stagnation",
+   "0.03": "stagnation",
+   "0.1": "other",
+   "0.3": "other"
+  },
+  "labels_partial": 2
+ }
+]

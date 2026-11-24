@@ -1,0 +1,182 @@
+[
+ {
+  "trajectory": "ns10_a4_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "699a9c4622469f885622db5f0eb9e14915ef4b98e6f6201bf25acdbd594207dc",
+  "store": {
+   "tier1_bytes": 56083,
+   "full_bytes": 0,
+   "full_stored": false,
+   "skip_reason": null,
+   "store_error": null
+  },
+  "classes": {
+   "0.01": "mirror",
+   "0.03": "mirror",
+   "0.1": "mirror",
+   "0.3": "mirror"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns12_a0_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "2bfb460edecd2609bdde94c118d0516545cebf8e9a07ccd46a356bd5ef750cfd",
+  "store": {
+   "tier1_bytes": 72042,
+   "full_bytes": 0,
+   "full_stored": false,
+   "skip_reason": null,
+   "store_error": null
+  },
+  "classes": {
+   "0.01": "native",
+   "0.03": "native",
+   "0.1": "native",
+   "0.3": "native"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns12_a4_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "a754b4af4bc4368a8a4d438e5cdcb7fec997afa7823241735e6f9f5a4bb3bb93",
+  "store": {
+   "tier1_bytes": 59437,
+   "full_bytes": 0,
+   "full_stored": false,
+   "skip_reason": null,
+   "store_error": null
+  },
+  "classes": {
+   "0.01": "native",
+   "0.03": "native",
+   "0.1": "native",
+   "0.3": "native"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns12_a8_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "465ea83e7d8d402e883d1d316270f646f90109a9073144ee1fe74a0603914c7a",
+  "store": {
+   "tier1_bytes": 60889,
+   "full_bytes": 0,
+   "full_stored": false,
+   "skip_reason": null,
+   "store_error": null
+  },
+  "classes": {
+   "0.01": "mirror",
+   "0.03": "mirror",
+   "0.1": "mirror",
+   "0.3": "mirror"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns15_a4_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "70c958e25564e506e4397cae9223aa619659606d95beffd9b6f75c2db0862a2c",
+  "store": {
+   "tier1_bytes": 70296,
+   "full_bytes": 0,
+   "full_stored": false,
+   "skip_reason": null,
+   "store_error": null
+  },
+  "classes": {
+   "0.01": "native",
+   "0.03": "native",
+   "0.1": "native",
+   "0.3": "native"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns16_a8_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "e30dcfc24e4a5035ad76344896141ffc0325136c76203635107f66fbecbfa3c0",
+  "store": {
+   "tier1_bytes": 84046,
+   "full_bytes": 0,
+   "full_stored": false,
+   "skip_reason": null,
+   "store_error": null
+  },
+  "classes": {
+   "0.01": "mirror",
+   "0.03": "mirror",
+   "0.1": "mirror",
+   "0.3": "mirror"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns18_a8_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "87cdc9d529e3ba9abde77ab41951021e24fbf76768e51902c59b3e4c5977be1f",
+  "store": {
+   "tier1_bytes": 55490,
+   "full_bytes": 0,
+   "full_stored": false,
+   "skip_reason": null,
+   "store_error": null
+  },
+  "classes": {
+   "0.01": "mirror",
+   "0.03": "mirror",
+   "0.1": "mirror",
+   "0.3": "mirror"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns2_a4_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "4c3e3d8b285ff04109462bd0a8301a97b50712711859b81c0f19b1e4bd92f184",
+  "store": {
+   "tier1_bytes": 63786,
+   "full_bytes": 0,
+   "full_stored": false,
+   "skip_reason": null,
+   "store_error": null
+  },
+  "classes": {
+   "0.01": "native",
+   "0.03": "native",
+   "0.1": "native",
+   "0.3": "native"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns4_a4_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "cf3e25d2d95b2134790de7859d74aff1acf0931dfe447120c41b049c7219bafa",
+  "store": {
+   "tier1_bytes": 57676,
+   "full_bytes": 0,
+   "full_stored": false,
+   "skip_reason": null,
+   "store_error": null
+  },
+  "classes": {
+   "0.01": "native",
+   "0.03": "native",
+   "0.1": "native",
+   "0.3": "native"
+  },
+  "labels_partial": 4
+ },
+ {
+  "trajectory": "ns9_a8_D500_dt0.0025_s0",
+  "ledger_arrays_sha256": "e6b955ca9f73157e75b6a0a8b1f0eb7cc2acaf6475eb4d83588a3afeb5029274",
+  "store": {
+   "tier1_bytes": 60894,
+   "full_bytes": 0,
+   "full_stored": false,
+   "skip_reason": null,
+   "store_error": null
+  },
+  "classes": {
+   "0.01": "mirror",
+   "0.03": "mirror",
+   "0.1": "mirror",
+   "0.3": "mirror"
+  },
+  "labels_partial": 4
+ }
+]
