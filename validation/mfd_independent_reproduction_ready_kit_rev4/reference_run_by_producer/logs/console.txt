@@ -1,0 +1,137 @@
+== env ==
+3.13.18 (main, Oct 26 2026, 14:08:19) [Clang 23.1.3 ]
+Linux-6.18.44-fc-v880-x86_64-with-glibc2.39
+numpy 2.5.3
+== [0] kit integrity (manifests, state-based check) ==
+top manifest entries: 128
+sub-manifest layer1_300trial/SHA256SUMS_layer1.txt entries: 3
+sub-manifest layer2_33traj/SHA256SUMS_layer2.txt entries: 43
+sub-manifest layer3_public_kit/KIT_MANIFEST_sha256.txt entries: 44
+sub-manifest layer3_public_kit/evidence_input/SHA256SUMS.txt entries: 17
+ok               235
+mismatch         0
+not_found        0
+unreadable       0
+special_state    0
+path_resolution  0
+unregistered     0
+not_in_allowlist 0
+unclassified     0
+crc_errors       0
+duplicate_paths  0
+unsafe_paths     0
+format_errors    0
+KIT INTEGRITY: OK
+-- [0a] regression tests of the manifest verifier (synthetic mini-kits only; the real kit is not touched)
+<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_9w5mvzaf/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_6tk3si1y/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_dh076_39/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+<KIT>/tools/test_verify_kit_manifest.py:94: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_dh076_39/tools/public_allowlist.txt' mode='r' encoding='utf-8'>
+  p = os.path.join(self.d, "tools/public_allowlist.txt"); L = [l for l in open(p).read().splitlines() if l != "README.md"]; wr(p, "\n".join(L) + "\n", "w")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_9smuzf2c/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_byf2er4n/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_84whs71d/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_b6gjelac/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_holctbtx/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_7i8a87cu/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_cc8_b2vq/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_0jz75r2i/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_gyyzoch_/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_7leqpjy_/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.<KIT>/tools/test_verify_kit_manifest.py:31: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/vkm_n5pjitbl/tools/public_allowlist.txt' mode='w' encoding='utf-8'>
+  open(os.path.join(root, "tools/public_allowlist.txt"), "w", newline="\n").write("\n".join(allow) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.
+----------------------------------------------------------------------
+Ran 14 tests in 0.041s
+
+OK
+== [0b] input hash checks ==
+dmax_sweep_runs.jsonl: OK
+== [1] Layer I: 300 trials (clip ratio, seed-block bootstrap B=10000 seed 20261124) ==
+input sha256 8c3c53b001a0d155178afa5bd3cff23a774a10737d38552ab5dc747aa47c8d70
+numpy 2.5.3 python 3.13.18 rng_seed 20261124 B 10000
+A: 30 cells x 10 trials; cell-mean ratio min 0.9891 max 1.0039; trial-level min 0.9883 max 1.0073; mean 0.9976
+A: unfinished trials with clip_time recorded: 1
+B: replicates 10000; inestimable (a,replicate) fits: 0; first few []
+a=0 tau OLS 34.46(se 2.69) boot sd 5.17 CI [25.10,45.24]; slope OLS 6223(se 939) boot sd 1205 CI [3735,8354]; slope-U0 CI [-2994,1636]; valid 10000
+a=1 tau OLS 13.17(se 1.04) boot sd 1.65 CI [10.34,16.72]; slope OLS 6224(se 363) boot sd 352 CI [5442,6792]; slope-U0 CI [-1271,76]; valid 10000
+a=4 tau OLS 4.26(se 0.52) boot sd 0.29 CI [3.69,4.84]; slope OLS 6731(se 183) boot sd 93 CI [6571,6930]; slope-U0 CI [-160,218]; valid 10000
+a=8 tau OLS 2.99(se 0.12) boot sd 0.06 CI [2.88,3.12]; slope OLS 6786(se 41) boot sd 46 CI [6695,6873]; slope-U0 CI [4,140]; valid 10000
+a=16 tau OLS 3.74(se 0.06) boot sd 0.07 CI [3.58,3.86]; slope OLS 6659(se 19) boot sd 25 CI [6612,6710]; slope-U0 CI [-94,-10]; valid 10000
+{'tau16_minus_tau8_ols': np.float64(0.7505914866638723), 'tau16_minus_tau8_ci': [0.5954119087589017, 0.8957385055675036], 'frac_tau16_gt_tau8': 1.0, 'U0_mean': 6716.819289327657, 'U0_boot_ci': [6677.762227763341, 6757.0931708455255], 'U0_sd_seeds': 67.5643845434027}
+clip ratio cell means: n=30 min=0.9891 max=1.0039 expected 0.9891..1.0039 tol 6e-05 -> OK
+== [2] Layer II: 33 trajectories (21 with containers; 12 ledger-only) ==
+written <KIT>/runs/producer_run2/layer2_out/verify_raw.json
+written <KIT>/runs/producer_run2/layer2_out/ns15_check.json
+B-FULL (9): ok 9/9;  B-TIER1 (10): classes ok 10/10;  ns15 four trajectories x (full, tier1): ok 8/8
+class comparisons performed (4 thresholds each): 108
+== [3] Layer III: 36 tests (19 original + 17 canonical-comparison) + 140-label reconstruction, in a working copy ==
+{
+ "python": "3.13.18 (main, Oct 26 2026, 14:08:19) [Clang 23.1.3 ]",
+ "platform": "Linux-6.18.44-fc-v880-x86_64-with-glibc2.39",
+ "machine": "x86_64",
+ "processor": "x86_64",
+ "numpy": "2.5.3",
+ "python_ge_3_11": true
+}
+ENV_OK
+files 18 mismatch 0 extra []
+----------------------------------------------------------------------
+Ran 36 tests in 0.242s
+
+OK
+process_exit=0
+unittest_result=OK (Ran 36 tests in 0.242s)
+stderr_lines=41
+evidence unchanged
+run_analysis exit=0
+files 18 mismatch 0 extra []
+INPUT UNCHANGED AFTER RUN
+-- [3a] ORIGINAL INTEGRITY (byte level): raw SHA-256 of the produced label file vs the stored original expectation
+label_reconstruction_140.json sha256 b0f3536ac809e4668cd3d9e0a50c43285753ee7bc41ac85f640660ffedb10c9e
+RAW BYTES IDENTICAL TO ORIGINAL EXPECTATION
+-- [3b] SCIENTIFIC EQUIVALENCE (structured, canonical comparison; see layer3_public_kit/NORMALIZATION_SPEC.md)
+labels: records expected/actual 140/140, order identical True
+labels: canonical sha256 (not a file hash): expected ee0873620a2e962f actual ee0873620a2e962f
+labels: EQUIVALENT
+report: EQUIVALENT (rtol 1e-09; 'environment' block excluded)
+== [4] per-trajectory asset matrix ==
+rows 35 with trajectory data 23 in_33 with data 21
+== [5] inputs unchanged (re-verification of all manifests) ==
+KIT INPUTS UNCHANGED
+== [6] strict-mode diagnostics (optional, <=5 subprocess runs) ==
+[1_default_tests] exit=0 tests_ran=36 tests_ok=True 
+[2_strict_tests] exit=0 tests_ran=36 tests_ok=True 
+[3_strict_import_numpy] exit=0 tests_ran=None tests_ok=False 
+[4_strict_import_numpy_scipy] exit=0 tests_ran=None tests_ok=False 
+[5_strict_bare_interpreter] exit=0 tests_ran=None tests_ok=False 
+anomaly NOT reproduced in this environment (cause unidentified)
+== done: manifest rc=0 layer1 rc=0 layer2 rc=0 layer3 rc=0 ==

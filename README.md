@@ -91,3 +91,16 @@ See `CITATION.cff` / `.zenodo.json`.
 
 Code, data and scripts: Apache License 2.0 (`LICENSE`). The manuscript is not part of this
 repository; its copyright and reuse terms are governed by the publisher's agreement.
+
+## Independent reproduction kit (Rev.4)
+
+`validation/mfd_independent_reproduction_ready_kit_rev4/` contains the independent reproduction kit Rev.4: a re-aggregation and re-classification of the **stored** records of Layer I (300 trials), Layer II (33 trajectories: trajectory data for 21, ledger summaries only for the remaining 12) and Layer III (140 classification comparisons), together with the public code, expected values, manifests and a verifier. No new simulation is run. Start with `validation/mfd_independent_reproduction_ready_kit_rev4/README_RUN_ja.md`.
+
+- The kit's `reference_run_by_producer/` is a re-run by the producer, **not** an independent third-party execution. A third-party execution has not been performed.
+- The earlier kits under `validation/mfd_reproduction_rev3/` and `validation/mfd_reproduction_rev3_public_kit_corrected/` were replaced by this kit; each of those directories now holds only a notice. Commit history and the tag `v1.0.0` are unchanged.
+- Integrity: `PUBLIC_MANIFEST_SHA256.txt` lists the SHA-256 of every tracked file (check with `sha256sum -c PUBLIC_MANIFEST_SHA256.txt` from the repository root).
+
+## Licenses
+
+Code: Apache-2.0 (`LICENSE`). Data and technical documents: CC BY 4.0 (`LICENSE-CC-BY-4.0.txt`). Details per directory: `LICENSES.md`. The manuscript is not part of this repository.
+

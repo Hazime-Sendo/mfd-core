@@ -1,0 +1,11 @@
+input sha256 8c3c53b001a0d155178afa5bd3cff23a774a10737d38552ab5dc747aa47c8d70
+numpy 2.5.3 python 3.13.18 rng_seed 20261124 B 10000
+A: 30 cells x 10 trials; cell-mean ratio min 0.9891 max 1.0039; trial-level min 0.9883 max 1.0073; mean 0.9976
+A: unfinished trials with clip_time recorded: 1
+B: replicates 10000; inestimable (a,replicate) fits: 0; first few []
+a=0 tau OLS 34.46(se 2.69) boot sd 5.17 CI [25.10,45.24]; slope OLS 6223(se 939) boot sd 1205 CI [3735,8354]; slope-U0 CI [-2994,1636]; valid 10000
+a=1 tau OLS 13.17(se 1.04) boot sd 1.65 CI [10.34,16.72]; slope OLS 6224(se 363) boot sd 352 CI [5442,6792]; slope-U0 CI [-1271,76]; valid 10000
+a=4 tau OLS 4.26(se 0.52) boot sd 0.29 CI [3.69,4.84]; slope OLS 6731(se 183) boot sd 93 CI [6571,6930]; slope-U0 CI [-160,218]; valid 10000
+a=8 tau OLS 2.99(se 0.12) boot sd 0.06 CI [2.88,3.12]; slope OLS 6786(se 41) boot sd 46 CI [6695,6873]; slope-U0 CI [4,140]; valid 10000
+a=16 tau OLS 3.74(se 0.06) boot sd 0.07 CI [3.58,3.86]; slope OLS 6659(se 19) boot sd 25 CI [6612,6710]; slope-U0 CI [-94,-10]; valid 10000
+{'tau16_minus_tau8_ols': np.float64(0.7505914866638723), 'tau16_minus_tau8_ci': [0.5954119087589017, 0.8957385055675036], 'frac_tau16_gt_tau8': 1.0, 'U0_mean': 6716.819289327657, 'U0_boot_ci': [6677.762227763341, 6757.0931708455255], 'U0_sd_seeds': 67.5643845434027}

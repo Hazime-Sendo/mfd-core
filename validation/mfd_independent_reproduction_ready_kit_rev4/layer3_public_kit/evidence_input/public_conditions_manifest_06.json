@@ -1,0 +1,89 @@
+{
+ "_public_derivative": {
+  "note": "Scientific verification conditions only, extracted by whitelist from an internal run record. Operational-control and role information is not included. References to tables that are not part of this kit are given as bare file names with not_in_kit=true; no directory paths. This file is a derivative, not an original, and carries its own SHA-256 (revision 3 of the derivative).",
+  "whitelist_keys": [
+   "frozen_conditions",
+   "trial_tables",
+   "environment",
+   "completion_states",
+   "a16_never_PASS",
+   "storage_rules"
+  ],
+  "derivation_id": "M06"
+ },
+ "frozen_conditions": {
+  "equations_of_motion": "unchanged",
+  "integrator": "Gonzalez discrete gradient, unchanged",
+  "main_DT": 0.005,
+  "aux_DT": 0.0025,
+  "T_MAX_tu": 100,
+  "conditional_extension": "+10 tu min until ||grad U||_2<=1e-2 over 5 tu; if not converged at +40 tu continue to +100 tu",
+  "U_thresholds": [
+   0.01,
+   0.03,
+   0.1,
+   0.3
+  ],
+  "V5": "fail (68% < 80%) - unchanged",
+  "U_end<=0.01": "candidate only, pending independent verification",
+  "a16": "unresolved",
+  "unconverged": "formal result"
+ },
+ "trial_tables": {
+  "main": {
+   "n": 6400,
+   "sha256": "ed90b3503d0d754926cde1e73472c442c4227a6eb474b5191b19000eb8914848",
+   "DT": 0.005,
+   "key_map": "main_trial_key_map.csv",
+   "key_map_sha256": "94dd4d43cbb4f7645af22208736fe72bc8079d46ba3b7c7dfe1968ec2f37615e",
+   "file_name": "run_table.csv",
+   "not_in_kit": true
+  },
+  "aux": {
+   "n": 660,
+   "sha256": "1f5fe3a28fc9772c709a323aac0cbf1f6abb9db18a1f422ef5791f70dea6d509",
+   "DT": 0.0025,
+   "key_map": "aux_trial_key_map.csv",
+   "key_map_sha256": "e9fb66597d45b5246d8551986fbb7bd27fcbc541c6a44a3855a87d7d98282ec1",
+   "composition": {
+    "aux_dmax_extra_landscape": "10 landscapes {2,4,5,9,10,12,15,16,17,18} x a{4,8,16} x seeds 0-19 at D_max=500 = 600",
+    "aux0": "ns{5,2,12} x a=0 x seeds 0-19 at D_max=500 = 60"
+   },
+   "file_name": "aux_run_table.csv",
+   "not_in_kit": true
+  },
+  "aux_timing": {
+   "n": null,
+   "status": "[operational note withheld in public derivative]",
+   "DT": 0.0025,
+   "not_in_kit": true
+  }
+ },
+ "environment": {
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "blas": "scipy-openblas 0.3.34.106.0 (OpenBLAS, DYNAMIC_ARCH)",
+  "platform": "Linux-6.18.44-fc-v653-x86_64-with-glibc2.39",
+  "thread_env_recommended": {
+   "OPENBLAS_NUM_THREADS": "1",
+   "OMP_NUM_THREADS": "1"
+  },
+  "thread_determinism_check": "2 trials, OPENBLAS threads 1/2/default: identical array SHA-256 (thread_determinism.txt); limited (2 cores)"
+ },
+ "completion_states": {
+  "COMPLETE": "only state skipped on resume",
+  "INCOMPLETE": "computed but mandatory storage not finished; reprocessed",
+  "FAILED_STORAGE": "storage failure; reprocessed",
+  "INTERRUPTED": "completion not confirmable; reprocessed"
+ },
+ "a16_never_PASS": true,
+ "storage_rules": {
+  "tier1": "always (npz)",
+  "full": "M2 (byte-shuffle + LZMA preset 6; per-array and container SHA-256; tmp+fsync+os.replace; read-back verify)",
+  "recipe": "always in ledger",
+  "existing_identical_file": "reused",
+  "existing_differing_file": "moved to quarantine/, never deleted",
+  "ledger": "append-only; torn lines preserved in ledger_torn.jsonl"
+ }
+}

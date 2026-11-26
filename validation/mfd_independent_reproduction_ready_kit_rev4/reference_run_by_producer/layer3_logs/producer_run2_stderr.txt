@@ -1,0 +1,41 @@
+test_dt_pair_not_estimable_fields (test_analysis.Evidence_.test_dt_pair_not_estimable_fields) ... ok
+test_hash_mismatch_detected (test_analysis.Evidence_.test_hash_mismatch_detected) ... ok
+test_label_mismatch_injection_detected (test_analysis.Evidence_.test_label_mismatch_injection_detected) ... ok
+test_missing_file_detected (test_analysis.Evidence_.test_missing_file_detected) ... ok
+test_missing_sums_file (test_analysis.Evidence_.test_missing_sums_file) ... ok
+test_no_write_to_evidence (test_analysis.Evidence_.test_no_write_to_evidence) ... ok
+test_provenance_not_upgraded (test_analysis.Evidence_.test_provenance_not_upgraded) ... ok
+test_real_integrity_and_labels (test_analysis.Evidence_.test_real_integrity_and_labels) ... ok
+test_refuse_output_inside_evidence (test_analysis.Evidence_.test_refuse_output_inside_evidence) ... ok
+test_arrival_states (test_analysis.Known.test_arrival_states) ... ok
+test_censored_not_filled (test_analysis.Known.test_censored_not_filled) ... ok
+test_first_hold (test_analysis.Known.test_first_hold) ... ok
+test_hold_incomplete (test_analysis.Known.test_hold_incomplete) ... ok
+test_kabsch (test_analysis.Known.test_kabsch) ... ok
+test_order (test_analysis.Known.test_order) ... ok
+test_structural_rule (test_analysis.Known.test_structural_rule) ... ok
+test_anomaly_from_ledger (test_analysis.V2.test_anomaly_from_ledger) ... ok
+test_label_counts_unchanged (test_analysis.V2.test_label_counts_unchanged) ... ok
+test_stride_design_rule (test_analysis.V2.test_stride_design_rule) ... ok
+test_duplicate_object_key_rejected (test_canonical_compare.T.test_duplicate_object_key_rejected) ... ok
+test_identical (test_canonical_compare.T.test_identical) ... ok
+test_key_order_only (test_canonical_compare.T.test_key_order_only) ... ok
+test_label_changed (test_canonical_compare.T.test_label_changed) ... ok
+test_nonfinite_rejected (test_canonical_compare.T.test_nonfinite_rejected) ... ok
+test_null_is_a_value (test_canonical_compare.T.test_null_is_a_value) ... ok
+test_original_bytes_hash (test_canonical_compare.T.test_original_bytes_hash) ... ok
+test_record_duplicated (test_canonical_compare.T.test_record_duplicated) ... ok
+test_record_missing (test_canonical_compare.T.test_record_missing) ... ok
+test_record_order_reported_not_failed (test_canonical_compare.T.test_record_order_reported_not_failed) ... ok
+test_report_missing_key (test_canonical_compare.T.test_report_missing_key) ... ok
+test_report_numeric_beyond_tolerance (test_canonical_compare.T.test_report_numeric_beyond_tolerance) ... ok
+test_report_numeric_within_tolerance (test_canonical_compare.T.test_report_numeric_within_tolerance) ... ok
+test_required_field_missing (test_canonical_compare.T.test_required_field_missing) ... ok
+test_theta_changed (test_canonical_compare.T.test_theta_changed) ... ok
+test_whitespace_newline_only (test_canonical_compare.T.test_whitespace_newline_only) ... ok
+test_wrong_type (test_canonical_compare.T.test_wrong_type) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.242s
+
+OK
