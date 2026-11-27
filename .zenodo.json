@@ -1,11 +1,20 @@
 {
-  "title": "MFD verification code: metriplectic discrete-gradient model of dissipation-capped relaxation",
+  "title": "MFD Research and Reproducibility Package: metriplectic discrete-gradient model of dissipation-capped relaxation",
   "upload_type": "software",
-  "description": "Simulation and verification code, raw data (300 deterministic trials), and scripts that regenerate every table and figure of the manuscript 'A Metriplectic Discrete-Gradient Model of Dissipation-Capped Relaxation: Monotone Integration, a Two-Regime Time Decomposition, and a Circulation-Induced Crossover' (manuscript in preparation).",
+  "description": "<p>Verification code, stored raw data and an independent reproduction kit (Rev.4) for a metriplectic discrete-gradient model of dissipation-capped relaxation, together with the continuous-integration (CI) code and GitHub Actions workflow that re-verify the stored public assets, a public manifest of SHA-256 checksums and the license documents.</p><p><b>Version meaning.</b> Version 2.0.0 denotes the publication and reproducibility package, not a change to the research model, theorems or numerical results. An earlier, separate record (version 1.0.0 of the verification code) exists and is unchanged.</p><p><b>Verification status (PARTIAL).</b> The kit re-aggregates and re-classifies stored records; it runs no new simulation. Layer I (300 stored trials) and Layer III (140 classification comparisons) were re-verified against the stored results. For Layer II, trajectory data exist for 21 of 33 trajectories and these were verified; the remaining 12 are ledger summaries only and are <b>not</b> claimed as reproduced. The overall status is therefore partial. A first automated CI run (GitHub Actions, run 45916758914, target commit 48efac133c3f3ef6666d0abf22835882260ef12b) was executed on 2026-11-27 and its evidence is archived with this record as separate attachments (not part of the repository file tree). All verification so far was carried out by the author, including the automated CI run. <b>No independent third-party replication has been performed.</b> The manuscript and its build kit are not part of this package.</p><p><b>Integrity.</b> <code>PUBLIC_MANIFEST_SHA256.txt</code> lists SHA-256 checksums of the 190 files it covers; the CI files are registered in <code>ci/CI_MANIFEST_SHA256.txt</code>.</p><p><b>Licenses.</b> Code, CI and workflows: Apache-2.0. Data and technical documents: CC BY 4.0. Third-party libraries and GitHub Actions remain under their own licenses. See <code>LICENSES.md</code>.</p>",
   "creators": [
-    {"name": "Sendo, Hazime", "orcid": "0009-0007-3285-0308"}
+    {
+      "name": "Sendo, Hazime",
+      "orcid": "0009-0007-3285-0308"
+    }
   ],
   "license": "Apache-2.0",
-  "keywords": ["metriplectic dynamics", "discrete gradient methods", "structure-preserving integration", "non-equilibrium relaxation", "Go model"],
+  "keywords": [
+    "metriplectic dynamics",
+    "discrete gradient methods",
+    "structure-preserving integration",
+    "non-equilibrium relaxation",
+    "Go model"
+  ],
   "access_right": "open"
 }
