@@ -1,0 +1,176 @@
+# MFD-CI-001: verification of the published, stored research assets.
+# Manual start only (workflow_dispatch). Read-only repository access. No secrets are used.
+# Re-verification only: no new trial or trajectory is generated and no non-public asset is touched.
+# CI-06 (REVTeX independent build) is held: it is recorded as BLOCKED/held by the summary job, never as PASS.
+name: MFD verification
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mfd-verify-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+
+jobs:
+  ci01:
+    name: CI-01 public asset integrity
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
+        with:
+          python-version: "3.13"
+      - name: environment
+        run: python ci/mfd_ci.py env . "${{ runner.temp }}/evidence/ci01"
+      - name: CI-01 public asset integrity
+        run: python ci/mfd_ci.py ci01 . "${{ runner.temp }}/evidence/ci01"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
+        if: always()
+        with:
+          name: evidence-ci01
+          path: ${{ runner.temp }}/evidence/ci01
+          if-no-files-found: warn
+          retention-days: 90
+
+  ci02:
+    name: CI-02 regression tests
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
+        with:
+          python-version: "3.11"
+      - name: install pinned dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements-lock.txt
+      - name: environment
+        run: python ci/mfd_ci.py env . "${{ runner.temp }}/evidence/ci02"
+      - name: CI-02 regression tests
+        run: python ci/mfd_ci.py ci02 . "${{ runner.temp }}/evidence/ci02"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
+        if: always()
+        with:
+          name: evidence-ci02
+          path: ${{ runner.temp }}/evidence/ci02
+          if-no-files-found: warn
+          retention-days: 90
+
+  ci03:
+    name: CI-03 Layer I
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
+        with:
+          python-version: "3.13"
+      - name: install pinned dependencies
+        run: python -m pip install --disable-pip-version-check -r ci/requirements-kit-ci.txt
+      - name: environment
+        run: python ci/mfd_ci.py env . "${{ runner.temp }}/evidence/ci03"
+      - name: CI-03 Layer I
+        run: python ci/mfd_ci.py ci03 . "${{ runner.temp }}/evidence/ci03"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
+        if: always()
+        with:
+          name: evidence-ci03
+          path: ${{ runner.temp }}/evidence/ci03
+          if-no-files-found: warn
+          retention-days: 90
+
+  ci04:
+    name: CI-04 Layer II
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
+        with:
+          python-version: "3.13"
+      - name: install pinned dependencies
+        run: python -m pip install --disable-pip-version-check -r ci/requirements-kit-ci.txt
+      - name: environment
+        run: python ci/mfd_ci.py env . "${{ runner.temp }}/evidence/ci04"
+      - name: CI-04 Layer II
+        run: python ci/mfd_ci.py ci04 . "${{ runner.temp }}/evidence/ci04"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
+        if: always()
+        with:
+          name: evidence-ci04
+          path: ${{ runner.temp }}/evidence/ci04
+          if-no-files-found: warn
+          retention-days: 90
+
+  ci05:
+    name: CI-05 Layer III
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
+        with:
+          python-version: "3.13"
+      - name: install pinned dependencies
+        run: python -m pip install --disable-pip-version-check -r ci/requirements-kit-ci.txt
+      - name: environment
+        run: python ci/mfd_ci.py env . "${{ runner.temp }}/evidence/ci05"
+      - name: CI-05 Layer III
+        run: python ci/mfd_ci.py ci05 . "${{ runner.temp }}/evidence/ci05"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
+        if: always()
+        with:
+          name: evidence-ci05
+          path: ${{ runner.temp }}/evidence/ci05
+          if-no-files-found: warn
+          retention-days: 90
+
+  summary:
+    name: Summary and overall verdict
+    runs-on: ubuntu-24.04
+    needs: [ci01, ci02, ci03, ci04, ci05]
+    if: always()
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
+        with:
+          python-version: "3.13"
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333  # v8.0.2
+        with:
+          pattern: evidence-*
+          path: ${{ runner.temp }}/evidence-in
+          merge-multiple: false
+      - name: aggregate (overall verdict)
+        run: |
+          set +e
+          python ci/mfd_ci.py aggregate "${{ runner.temp }}/evidence-in" "${{ runner.temp }}/evidence/summary"
+          rc=$?
+          cat "${{ runner.temp }}/evidence/summary/SUMMARY.md" >> "$GITHUB_STEP_SUMMARY"
+          echo "aggregate exit code: $rc (0 = PASS or PARTIAL, 1 = FAIL, 3 = BLOCKED)"
+          exit $rc
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
+        if: always()
+        with:
+          name: evidence-summary
+          path: ${{ runner.temp }}/evidence/summary
+          if-no-files-found: warn
+          retention-days: 90

@@ -1,0 +1,4 @@
+# Dependency pins for the reproduction-kit checks (CI-01, CI-03, CI-04, CI-05).
+# Same versions as the kit's confirmed environment (kit/requirements-pinned.txt: Python 3.13, NumPy 2.5.3, SciPy 1.18.1).
+numpy==2.5.3
+scipy==1.18.1
