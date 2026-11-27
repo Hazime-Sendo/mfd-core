@@ -84,13 +84,16 @@ corrected in the manuscript; details in `docs/manuscript_corrections.md`.
 
 See `CITATION.cff` / `.zenodo.json`.
 
-- Version 1.0.0: https://doi.org/10.5281/zenodo.23263201
-- All versions (latest): https://doi.org/10.5281/zenodo.23263200
+- **Version 2.0.0** (this publication and reproducibility package): the DOI has **not been issued yet**. It will be added after the Zenodo record has been published.
+- The two DOIs below belong to the earlier, separate record of **version 1.0.0** of the verification code only. They are **not** the DOI of version 2.0.0.
+  - Version 1.0.0: https://doi.org/10.5281/zenodo.23263201
+  - Concept DOI of that earlier record: https://doi.org/10.5281/zenodo.23263200
 
 ## License
 
-Code, data and scripts: Apache License 2.0 (`LICENSE`). The manuscript is not part of this
-repository; its copyright and reuse terms are governed by the publisher's agreement.
+Code and scripts, including the CI code and workflow: Apache License 2.0 (`LICENSE`). Data and technical
+documents: CC BY 4.0 (`LICENSE-CC-BY-4.0.txt`). Details per directory: `LICENSES.md`. The manuscript is not
+part of this repository; its copyright and reuse terms are governed by the publisher's agreement.
 
 ## Independent reproduction kit (Rev.4)
 
@@ -98,7 +101,7 @@ repository; its copyright and reuse terms are governed by the publisher's agreem
 
 - The kit's `reference_run_by_producer/` is a re-run by the producer, **not** an independent third-party execution. A third-party execution has not been performed.
 - The earlier kits under `validation/mfd_reproduction_rev3/` and `validation/mfd_reproduction_rev3_public_kit_corrected/` were replaced by this kit; each of those directories now holds only a notice. Commit history and the tag `v1.0.0` are unchanged.
-- Integrity: `PUBLIC_MANIFEST_SHA256.txt` lists the SHA-256 of every tracked file (check with `sha256sum -c PUBLIC_MANIFEST_SHA256.txt` from the repository root).
+- Integrity: `PUBLIC_MANIFEST_SHA256.txt` lists the SHA-256 of the 190 files it covers (check with `sha256sum -c PUBLIC_MANIFEST_SHA256.txt` from the repository root). The CI files (`.github/workflows/mfd-verify.yml` and the files in `ci/`, except the manifest itself) are registered separately in `ci/CI_MANIFEST_SHA256.txt` (check with `sha256sum -c ci/CI_MANIFEST_SHA256.txt`). Neither manifest lists itself.
 
 ## Licenses
 
