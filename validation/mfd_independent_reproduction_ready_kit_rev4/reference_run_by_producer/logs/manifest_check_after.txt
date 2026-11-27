@@ -1,0 +1,19 @@
+top manifest entries: 128
+sub-manifest layer1_300trial/SHA256SUMS_layer1.txt entries: 3
+sub-manifest layer2_33traj/SHA256SUMS_layer2.txt entries: 43
+sub-manifest layer3_public_kit/KIT_MANIFEST_sha256.txt entries: 44
+sub-manifest layer3_public_kit/evidence_input/SHA256SUMS.txt entries: 17
+ok               235
+mismatch         0
+not_found        0
+unreadable       0
+special_state    0
+path_resolution  0
+unregistered     0
+not_in_allowlist 0
+unclassified     0
+crc_errors       0
+duplicate_paths  0
+unsafe_paths     0
+format_errors    0
+KIT INTEGRITY: OK

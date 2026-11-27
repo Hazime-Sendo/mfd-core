@@ -1,0 +1,26 @@
+{
+  "condition_set_label": "aux_timing (dt check)",
+  "conditions": [
+    {
+      "DT": 0.00125,
+      "D_max": 500,
+      "a": 8,
+      "native_seed": 15,
+      "seed": 0
+    },
+    {
+      "DT": 0.00125,
+      "D_max": 500,
+      "a": 16,
+      "native_seed": 15,
+      "seed": 0
+    }
+  ],
+  "created_local_date": "2026-11-23",
+  "note": "Derived for public release from an internal preparation record. Contains scientific conditions only. Not an original record; it carries its own SHA-256.",
+  "record_type": "public derivative: scientific provenance of the two dt=0.00125 check runs",
+  "statement": "Initial conditions and parameters of these two runs are those listed in conditions; the stored trajectory containers for them are the dt0.00125 .m2/.npz files in this directory.",
+  "trial_table_note": "the 2-row condition table itself is not part of this kit; its hash is recorded as provenance only",
+  "trial_table_rows": 2,
+  "trial_table_sha256": "282d5e3fc5a88f6739dc8b9630ce07f570827197ff9ca8968ebe596cdede725b"
+}

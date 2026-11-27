@@ -1,0 +1,314 @@
+[
+ {
+  "key": "ns15_a8_D500_dt0.0025_s0",
+  "route": "B-FULL",
+  "file_sha256": "4a97bca5fbce9ec3ceb9f1679b47fdaf3734960c3df5f8fb7275717f3b8f6475",
+  "file_size": 511313,
+  "file_sha256_match": true,
+  "file_size_match": true,
+  "n_arrays": 12,
+  "array_order_ok": true,
+  "content_hash": "ab0ca19a531836642c8d46765ad70537ba7b3c65e9376a8e639f2a111bee479b",
+  "content_hash_match": true,
+  "indices_match": true,
+  "classes": {
+   "0.01": "stagnation",
+   "0.03": "stagnation",
+   "0.1": "stagnation",
+   "0.3": "mirror"
+  },
+  "classes_match": {
+   "0.01": true,
+   "0.03": true,
+   "0.1": true,
+   "0.3": true
+  },
+  "n_classes_match": 4,
+  "terminal": {
+   "rn_end": 1.066454212606601,
+   "rm_end": 0.47352125889639585,
+   "m_end": 0.47352125889639585,
+   "anomaly": false,
+   "classes": {
+    "0.01": "stagnation",
+    "0.03": "stagnation",
+    "0.1": "stagnation",
+    "0.3": "mirror"
+   }
+  },
+  "terminal_classes_match": true
+ },
+ {
+  "key": "ns15_a8_D500_dt0.0025_s0",
+  "route": "B-TIER1",
+  "file_size": 61003,
+  "file_size_match": true,
+  "file_sha256": "b5f2c4ae52975921872f6a11b2e1880be9b87fae5eae6224a6be0b5a60755d33",
+  "keys": [
+   "U_at_frames",
+   "U_every10",
+   "frame_Q",
+   "frame_dense",
+   "frame_rmsd_mir",
+   "frame_rmsd_nat",
+   "frame_step",
+   "g_final",
+   "gnorm_at_frames",
+   "x_final"
+  ],
+  "terminal": {
+   "rn_end": 1.066454212606601,
+   "rm_end": 0.47352125889639585,
+   "m_end": 0.47352125889639585,
+   "anomaly": false,
+   "classes": {
+    "0.01": "stagnation",
+    "0.03": "stagnation",
+    "0.1": "stagnation",
+    "0.3": "mirror"
+   }
+  },
+  "classes_match": {
+   "0.01": true,
+   "0.03": true,
+   "0.1": true,
+   "0.3": true
+  },
+  "n_classes_match": 4,
+  "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+ },
+ {
+  "key": "ns15_a16_D500_dt0.0025_s0",
+  "route": "B-FULL",
+  "file_sha256": "da269c10359d68660b852d95c6c161ad434b2180a6635026f0c13cf5a8637023",
+  "file_size": 480517,
+  "file_sha256_match": true,
+  "file_size_match": true,
+  "n_arrays": 12,
+  "array_order_ok": true,
+  "content_hash": "53326437459c8d547f0212180d3479de328e9845ae09fbe571ce76e4d317ef7b",
+  "content_hash_match": true,
+  "indices_match": true,
+  "classes": {
+   "0.01": "stagnation",
+   "0.03": "stagnation",
+   "0.1": "stagnation",
+   "0.3": "mirror"
+  },
+  "classes_match": {
+   "0.01": true,
+   "0.03": true,
+   "0.1": true,
+   "0.3": true
+  },
+  "n_classes_match": 4,
+  "terminal": {
+   "rn_end": 1.0664962774271707,
+   "rm_end": 0.4735432893348526,
+   "m_end": 0.4735432893348526,
+   "anomaly": false,
+   "classes": {
+    "0.01": "stagnation",
+    "0.03": "stagnation",
+    "0.1": "stagnation",
+    "0.3": "mirror"
+   }
+  },
+  "terminal_classes_match": true
+ },
+ {
+  "key": "ns15_a16_D500_dt0.0025_s0",
+  "route": "B-TIER1",
+  "file_size": 55308,
+  "file_size_match": true,
+  "file_sha256": "400d61987e879982dba573fbcc4ed5c659a96d1aa8a95099de1f9e12fbdd5c3e",
+  "keys": [
+   "U_at_frames",
+   "U_every10",
+   "frame_Q",
+   "frame_dense",
+   "frame_rmsd_mir",
+   "frame_rmsd_nat",
+   "frame_step",
+   "g_final",
+   "gnorm_at_frames",
+   "x_final"
+  ],
+  "terminal": {
+   "rn_end": 1.0664962774271707,
+   "rm_end": 0.4735432893348526,
+   "m_end": 0.4735432893348526,
+   "anomaly": false,
+   "classes": {
+    "0.01": "stagnation",
+    "0.03": "stagnation",
+    "0.1": "stagnation",
+    "0.3": "mirror"
+   }
+  },
+  "classes_match": {
+   "0.01": true,
+   "0.03": true,
+   "0.1": true,
+   "0.3": true
+  },
+  "n_classes_match": 4,
+  "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+ },
+ {
+  "key": "ns15_a8_D500_dt0.00125_s0",
+  "route": "B-FULL",
+  "file_sha256": "67473bef2668a807a9e8e39c4fecce345040b7f6c525dc08d6d84cd952247984",
+  "file_size": 844723,
+  "file_sha256_match": true,
+  "file_size_match": true,
+  "n_arrays": 12,
+  "array_order_ok": true,
+  "content_hash": "725c5e6cd8b0d274d218a78a0a6ac161b2bb7efa0f5dc03637e13ef5f7f25521",
+  "content_hash_match": true,
+  "indices_match": true,
+  "classes": {
+   "0.01": "stagnation",
+   "0.03": "stagnation",
+   "0.1": "stagnation",
+   "0.3": "mirror"
+  },
+  "classes_match": {
+   "0.01": true,
+   "0.03": true,
+   "0.1": true,
+   "0.3": true
+  },
+  "n_classes_match": 4,
+  "terminal": {
+   "rn_end": 1.0664513613177613,
+   "rm_end": 0.4735197953557177,
+   "m_end": 0.4735197953557177,
+   "anomaly": false,
+   "classes": {
+    "0.01": "stagnation",
+    "0.03": "stagnation",
+    "0.1": "stagnation",
+    "0.3": "mirror"
+   }
+  },
+  "terminal_classes_match": true
+ },
+ {
+  "key": "ns15_a8_D500_dt0.00125_s0",
+  "route": "B-TIER1",
+  "file_size": 94109,
+  "file_size_match": true,
+  "file_sha256": "10252e595e8ff46a421ab84710698175ae5c5898a945eb77dbdd07bfa12f8729",
+  "keys": [
+   "U_at_frames",
+   "U_every10",
+   "frame_Q",
+   "frame_dense",
+   "frame_rmsd_mir",
+   "frame_rmsd_nat",
+   "frame_step",
+   "g_final",
+   "gnorm_at_frames",
+   "x_final"
+  ],
+  "terminal": {
+   "rn_end": 1.0664513613177613,
+   "rm_end": 0.4735197953557177,
+   "m_end": 0.4735197953557177,
+   "anomaly": false,
+   "classes": {
+    "0.01": "stagnation",
+    "0.03": "stagnation",
+    "0.1": "stagnation",
+    "0.3": "mirror"
+   }
+  },
+  "classes_match": {
+   "0.01": true,
+   "0.03": true,
+   "0.1": true,
+   "0.3": true
+  },
+  "n_classes_match": 4,
+  "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+ },
+ {
+  "key": "ns15_a16_D500_dt0.00125_s0",
+  "route": "B-FULL",
+  "file_sha256": "4bc22dc5b92d91ac18ca789edd9077058c19a02010c8b47cd67ead3ab94c6e4b",
+  "file_size": 813219,
+  "file_sha256_match": true,
+  "file_size_match": true,
+  "n_arrays": 12,
+  "array_order_ok": true,
+  "content_hash": "4f304ba63cb79572f3f156e3b9ba656199977d1c41f940c8bdca155ebf873e6a",
+  "content_hash_match": true,
+  "indices_match": true,
+  "classes": {
+   "0.01": "stagnation",
+   "0.03": "stagnation",
+   "0.1": "stagnation",
+   "0.3": "mirror"
+  },
+  "classes_match": {
+   "0.01": true,
+   "0.03": true,
+   "0.1": true,
+   "0.3": true
+  },
+  "n_classes_match": 4,
+  "terminal": {
+   "rn_end": 1.066496336805042,
+   "rm_end": 0.47354331910759045,
+   "m_end": 0.47354331910759045,
+   "anomaly": false,
+   "classes": {
+    "0.01": "stagnation",
+    "0.03": "stagnation",
+    "0.1": "stagnation",
+    "0.3": "mirror"
+   }
+  },
+  "terminal_classes_match": true
+ },
+ {
+  "key": "ns15_a16_D500_dt0.00125_s0",
+  "route": "B-TIER1",
+  "file_size": 88443,
+  "file_size_match": true,
+  "file_sha256": "39422aa53424e6c4cb1019fd667122c6308f170c8dcb6fa260b27e4d387b68f7",
+  "keys": [
+   "U_at_frames",
+   "U_every10",
+   "frame_Q",
+   "frame_dense",
+   "frame_rmsd_mir",
+   "frame_rmsd_nat",
+   "frame_step",
+   "g_final",
+   "gnorm_at_frames",
+   "x_final"
+  ],
+  "terminal": {
+   "rn_end": 1.066496336805042,
+   "rm_end": 0.47354331910759045,
+   "m_end": 0.47354331910759045,
+   "anomaly": false,
+   "classes": {
+    "0.01": "stagnation",
+    "0.03": "stagnation",
+    "0.1": "stagnation",
+    "0.3": "mirror"
+   }
+  },
+  "classes_match": {
+   "0.01": true,
+   "0.03": true,
+   "0.1": true,
+   "0.3": true
+  },
+  "n_classes_match": 4,
+  "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+ }
+]

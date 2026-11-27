@@ -1,0 +1,5 @@
+process_exit=0
+unittest_result=OK (Ran 36 tests in 0.242s)
+stderr_lines=41
+evidence unchanged
+run_analysis exit=0

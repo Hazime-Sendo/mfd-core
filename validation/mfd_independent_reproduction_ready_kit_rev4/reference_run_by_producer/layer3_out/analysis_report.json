@@ -1,0 +1,546 @@
+{
+ "title": "MFD L4-001 analysis-only report",
+ "stop_conditions_triggered": [],
+ "status_vocabulary": [
+  "VERIFIED",
+  "REVIEW",
+  "NOT VERIFIED",
+  "NOT ESTIMABLE"
+ ],
+ "evidence_files": [
+  {
+   "name": "SHA256SUMS.txt",
+   "size": 1640,
+   "sha256": "69caebea3ded9938c61b4657ee7de6c9d582b25648c90342d5c8d21e77b2a4f8",
+   "listed_sha256": "",
+   "integrity": "REFERENCE_FILE",
+   "load": "NOT_LOADED"
+  },
+  {
+   "name": "T3-DT01_public_provenance.json",
+   "size": 1028,
+   "sha256": "46cb4784fadce526df456d726cfbccb16c8cce7e15acc91fe1480317b4e8b0b3",
+   "listed_sha256": "46cb4784fadce526df456d726cfbccb16c8cce7e15acc91fe1480317b4e8b0b3",
+   "integrity": "OK",
+   "load": "NOT_LOADED"
+  },
+  {
+   "name": "ledger_dt00125.jsonl",
+   "size": 5449,
+   "sha256": "ab6269a861913015fc5af604d2fb3dc5d38db87e27403ca2ff3318ac892b67bc",
+   "listed_sha256": "ab6269a861913015fc5af604d2fb3dc5d38db87e27403ca2ff3318ac892b67bc",
+   "integrity": "OK",
+   "load": "LOADED"
+  },
+  {
+   "name": "ledger_dt0025.jsonl",
+   "size": 85110,
+   "sha256": "5d4016da490f699ab190b2c5add3ca185b8ca3b1ff6a2a85af9ab307bf76b05f",
+   "listed_sha256": "5d4016da490f699ab190b2c5add3ca185b8ca3b1ff6a2a85af9ab307bf76b05f",
+   "integrity": "OK",
+   "load": "LOADED"
+  },
+  {
+   "name": "ns15_a16_D500_dt0.00125_s0.m2",
+   "size": 813219,
+   "sha256": "4bc22dc5b92d91ac18ca789edd9077058c19a02010c8b47cd67ead3ab94c6e4b",
+   "listed_sha256": "4bc22dc5b92d91ac18ca789edd9077058c19a02010c8b47cd67ead3ab94c6e4b",
+   "integrity": "OK",
+   "load": "NOT_LOADED"
+  },
+  {
+   "name": "ns15_a16_D500_dt0.00125_s0.npz",
+   "size": 88443,
+   "sha256": "39422aa53424e6c4cb1019fd667122c6308f170c8dcb6fa260b27e4d387b68f7",
+   "listed_sha256": "39422aa53424e6c4cb1019fd667122c6308f170c8dcb6fa260b27e4d387b68f7",
+   "integrity": "OK",
+   "load": "LOADED"
+  },
+  {
+   "name": "ns15_a16_D500_dt0.0025_s0.m2",
+   "size": 480517,
+   "sha256": "da269c10359d68660b852d95c6c161ad434b2180a6635026f0c13cf5a8637023",
+   "listed_sha256": "da269c10359d68660b852d95c6c161ad434b2180a6635026f0c13cf5a8637023",
+   "integrity": "OK",
+   "load": "NOT_LOADED"
+  },
+  {
+   "name": "ns15_a16_D500_dt0.0025_s0.npz",
+   "size": 55308,
+   "sha256": "400d61987e879982dba573fbcc4ed5c659a96d1aa8a95099de1f9e12fbdd5c3e",
+   "listed_sha256": "400d61987e879982dba573fbcc4ed5c659a96d1aa8a95099de1f9e12fbdd5c3e",
+   "integrity": "OK",
+   "load": "LOADED"
+  },
+  {
+   "name": "ns15_a8_D500_dt0.00125_s0.m2",
+   "size": 844723,
+   "sha256": "67473bef2668a807a9e8e39c4fecce345040b7f6c525dc08d6d84cd952247984",
+   "listed_sha256": "67473bef2668a807a9e8e39c4fecce345040b7f6c525dc08d6d84cd952247984",
+   "integrity": "OK",
+   "load": "NOT_LOADED"
+  },
+  {
+   "name": "ns15_a8_D500_dt0.00125_s0.npz",
+   "size": 94109,
+   "sha256": "10252e595e8ff46a421ab84710698175ae5c5898a945eb77dbdd07bfa12f8729",
+   "listed_sha256": "10252e595e8ff46a421ab84710698175ae5c5898a945eb77dbdd07bfa12f8729",
+   "integrity": "OK",
+   "load": "LOADED"
+  },
+  {
+   "name": "ns15_a8_D500_dt0.0025_s0.m2",
+   "size": 511313,
+   "sha256": "4a97bca5fbce9ec3ceb9f1679b47fdaf3734960c3df5f8fb7275717f3b8f6475",
+   "listed_sha256": "4a97bca5fbce9ec3ceb9f1679b47fdaf3734960c3df5f8fb7275717f3b8f6475",
+   "integrity": "OK",
+   "load": "NOT_LOADED"
+  },
+  {
+   "name": "ns15_a8_D500_dt0.0025_s0.npz",
+   "size": 61003,
+   "sha256": "b5f2c4ae52975921872f6a11b2e1880be9b87fae5eae6224a6be0b5a60755d33",
+   "listed_sha256": "b5f2c4ae52975921872f6a11b2e1880be9b87fae5eae6224a6be0b5a60755d33",
+   "integrity": "OK",
+   "load": "LOADED"
+  },
+  {
+   "name": "public_conditions_manifest_01.json",
+   "size": 3359,
+   "sha256": "3d61130e263812f2413e404ec3362b530ae4d6da43fb4e829d906ccfd80889b6",
+   "listed_sha256": "3d61130e263812f2413e404ec3362b530ae4d6da43fb4e829d906ccfd80889b6",
+   "integrity": "OK",
+   "load": "LOADED"
+  },
+  {
+   "name": "public_conditions_manifest_02.json",
+   "size": 3096,
+   "sha256": "a5d9e71fbcb8baecff2fb3865071234c0d0c3d62a7f5d7f817162d8d155ece86",
+   "listed_sha256": "a5d9e71fbcb8baecff2fb3865071234c0d0c3d62a7f5d7f817162d8d155ece86",
+   "integrity": "OK",
+   "load": "LOADED"
+  },
+  {
+   "name": "public_conditions_manifest_03.json",
+   "size": 3237,
+   "sha256": "8e6322224a0aa04f864f8ab25683015bb9873fa99fd1bcbb5399e22d59c3fb63",
+   "listed_sha256": "8e6322224a0aa04f864f8ab25683015bb9873fa99fd1bcbb5399e22d59c3fb63",
+   "integrity": "OK",
+   "load": "LOADED"
+  },
+  {
+   "name": "public_conditions_manifest_04.json",
+   "size": 3237,
+   "sha256": "b1f3d3b13b1d1aa5812ce39fe6f6ea47e002cd64c5e082667f074db586319385",
+   "listed_sha256": "b1f3d3b13b1d1aa5812ce39fe6f6ea47e002cd64c5e082667f074db586319385",
+   "integrity": "OK",
+   "load": "LOADED"
+  },
+  {
+   "name": "public_conditions_manifest_05.json",
+   "size": 3363,
+   "sha256": "27956244ed35bafd099736fb6d8e3286bfdc49ccf218a82a051d75d9b71c2254",
+   "listed_sha256": "27956244ed35bafd099736fb6d8e3286bfdc49ccf218a82a051d75d9b71c2254",
+   "integrity": "OK",
+   "load": "LOADED"
+  },
+  {
+   "name": "public_conditions_manifest_06.json",
+   "size": 3237,
+   "sha256": "d46f9ce36981b59ab1cd6ae5985dc90c826947b9a7dc159604647fb8ab7e47ff",
+   "listed_sha256": "d46f9ce36981b59ab1cd6ae5985dc90c826947b9a7dc159604647fb8ab7e47ff",
+   "integrity": "OK",
+   "load": "LOADED"
+  }
+ ],
+ "evidence_zip_sha256": "b7c06db713...366f (as recorded in spec; not recomputed here)",
+ "formulas": {
+  "E_theta": "ARRIVED if U_end<=theta; STAGNANT if U_end>theta and grad_converged; CENSORED otherwise",
+  "T_theta": "first hold-complete detection time minus h (h=5.0)",
+  "thresholds": [
+   0.01,
+   0.03,
+   0.1,
+   0.3
+  ],
+  "provisional_thresholds_adjusted": false
+ },
+ "items": [
+  {
+   "item": "A3 label reconstruction (E_theta/y_theta, 140 labels)",
+   "evidence_state": "REVIEW",
+   "analysis_feasibility": "PARTIAL",
+   "result": "MATCH",
+   "detail": {
+    "summary": {
+     "n": 140,
+     "compare": {
+      "MATCH": 69,
+      "PARTIAL": 71
+     },
+     "cross_inconsistent": 0,
+     "crosstab_E_y_ledger": {
+      "ARRIVED|mirror": 40,
+      "ARRIVED|native": 33,
+      "ARRIVED|other": 2,
+      "ARRIVED|unconverged": 3,
+      "CENSORED|unconverged": 13,
+      "STAGNANT|stagnation": 49
+     }
+    },
+    "note": "structural class branch (native/mirror/other) needs m_end: rebuilt only where NPZ present (4 trials); others PARTIAL (ledger-consistency only)"
+   }
+  },
+  {
+   "item": "A4 T_theta vs ledger indices.tE (theta=0.1)",
+   "evidence_state": "REVIEW",
+   "analysis_feasibility": "NOT ESTIMABLE",
+   "result": "NOT VERIFIED",
+   "detail": {
+    "ledger_only_check": {
+     "n": 35,
+     "tE_set_iff_Uend_le_0.1_and_in_range": 35,
+     "failures": []
+    },
+    "numeric_comparison": {
+     "trials_with_npz": 4,
+     "trials_with_ledger_tE_set": 0,
+     "verdict": "NOT TESTABLE: 0 comparable pairs (ledger tE set AND U array present); absence of mismatch over an empty set is not a PASS",
+     "comparable_pairs": 0
+    },
+    "T_theta_rebuilt_rows": [
+     {
+      "key": "ns15_a8_D500_dt0.0025_s0",
+      "ledger_tE": null,
+      "rebuilt_t_detect": null,
+      "stride": 20,
+      "grid": 0.05,
+      "tol": 0.0525,
+      "verdict": "MATCH(both unreached)",
+      "rebuilt": {
+       "status": "RIGHT_CENSORED",
+       "t_detect": null,
+       "T": null,
+       "t_end_grid": 30.300000000000004
+      },
+      "T_theta": {
+       "0.01": {
+        "status": "RIGHT_CENSORED",
+        "t_detect": null,
+        "T": null,
+        "t_end_grid": 30.300000000000004
+       },
+       "0.03": {
+        "status": "RIGHT_CENSORED",
+        "t_detect": null,
+        "T": null,
+        "t_end_grid": 30.300000000000004
+       },
+       "0.1": {
+        "status": "RIGHT_CENSORED",
+        "t_detect": null,
+        "T": null,
+        "t_end_grid": 30.300000000000004
+       },
+       "0.3": {
+        "status": "ARRIVED",
+        "t_detect": 13.900000000000002,
+        "T": 8.900000000000002,
+        "T_first_cross": 8.9,
+        "grid": 0.05
+       }
+      }
+     },
+     {
+      "key": "ns15_a16_D500_dt0.0025_s0",
+      "ledger_tE": null,
+      "rebuilt_t_detect": null,
+      "stride": 20,
+      "grid": 0.05,
+      "tol": 0.0525,
+      "verdict": "MATCH(both unreached)",
+      "rebuilt": {
+       "status": "RIGHT_CENSORED",
+       "t_detect": null,
+       "T": null,
+       "t_end_grid": 24.2
+      },
+      "T_theta": {
+       "0.01": {
+        "status": "RIGHT_CENSORED",
+        "t_detect": null,
+        "T": null,
+        "t_end_grid": 24.2
+       },
+       "0.03": {
+        "status": "RIGHT_CENSORED",
+        "t_detect": null,
+        "T": null,
+        "t_end_grid": 24.2
+       },
+       "0.1": {
+        "status": "RIGHT_CENSORED",
+        "t_detect": null,
+        "T": null,
+        "t_end_grid": 24.2
+       },
+       "0.3": {
+        "status": "ARRIVED",
+        "t_detect": 11.950000000000001,
+        "T": 6.950000000000001,
+        "T_first_cross": 6.950000000000001,
+        "grid": 0.05
+       }
+      }
+     },
+     {
+      "key": "ns15_a16_D500_dt0.00125_s0",
+      "ledger_tE": null,
+      "rebuilt_t_detect": null,
+      "stride": 40,
+      "grid": 0.05,
+      "tol": 0.051250000000000004,
+      "verdict": "MATCH(both unreached)",
+      "rebuilt": {
+       "status": "RIGHT_CENSORED",
+       "t_detect": null,
+       "T": null,
+       "t_end_grid": 24.2
+      },
+      "T_theta": {
+       "0.01": {
+        "status": "RIGHT_CENSORED",
+        "t_detect": null,
+        "T": null,
+        "t_end_grid": 24.2
+       },
+       "0.03": {
+        "status": "RIGHT_CENSORED",
+        "t_detect": null,
+        "T": null,
+        "t_end_grid": 24.2
+       },
+       "0.1": {
+        "status": "RIGHT_CENSORED",
+        "t_detect": null,
+        "T": null,
+        "t_end_grid": 24.2
+       },
+       "0.3": {
+        "status": "ARRIVED",
+        "t_detect": 11.950000000000001,
+        "T": 6.950000000000001,
+        "T_first_cross": 6.950000000000001,
+        "grid": 0.05
+       }
+      }
+     },
+     {
+      "key": "ns15_a8_D500_dt0.00125_s0",
+      "ledger_tE": null,
+      "rebuilt_t_detect": null,
+      "stride": 40,
+      "grid": 0.05,
+      "tol": 0.051250000000000004,
+      "verdict": "MATCH(both unreached)",
+      "rebuilt": {
+       "status": "RIGHT_CENSORED",
+       "t_detect": null,
+       "T": null,
+       "t_end_grid": 30.2
+      },
+      "T_theta": {
+       "0.01": {
+        "status": "RIGHT_CENSORED",
+        "t_detect": null,
+        "T": null,
+        "t_end_grid": 30.2
+       },
+       "0.03": {
+        "status": "RIGHT_CENSORED",
+        "t_detect": null,
+        "T": null,
+        "t_end_grid": 30.2
+       },
+       "0.1": {
+        "status": "RIGHT_CENSORED",
+        "t_detect": null,
+        "T": null,
+        "t_end_grid": 30.2
+       },
+       "0.3": {
+        "status": "ARRIVED",
+        "t_detect": 13.900000000000002,
+        "T": 8.900000000000002,
+        "T_first_cross": 8.9,
+        "grid": 0.05
+       }
+      }
+     }
+    ],
+    "quantisation": "stored U array uses stride (not 10): grid=stride*DT (0.05 tu for both DT); T_theta resolution limited to this grid. The 18 trials with tE set have no stored U array."
+   }
+  },
+  {
+   "item": "A5 DT pair comparison (single pairs)",
+   "evidence_state": "REVIEW",
+   "analysis_feasibility": "PARTIAL",
+   "result": "DESCRIPTIVE",
+   "detail": {
+    "pairs": [
+     {
+      "key_coarse": "ns15_a8_D500_dt0.0025_s0",
+      "key_fine": "ns15_a8_D500_dt0.00125_s0",
+      "DT_c": 0.0025,
+      "DT_f": 0.00125,
+      "endpoint": {
+       "U_end_diff": 6.6956672983842225e-09,
+       "t_end_c": 30.302500000000002,
+       "t_end_f": 30.20125,
+       "dt_end": 0.10125000000000028,
+       "note": "endpoints are at different physical times when t_end differs"
+      },
+      "common_time_U": {
+       "n_common": 605,
+       "max_rel": 0.000843872128048487,
+       "rms_rel": 0.00013879113292644942,
+       "t_of_max": 4.8500000000000005,
+       "normalisation": "U0-U_end (coarse)"
+      },
+      "x_final_rmsd": {
+       "SO3": 6.080507777833674e-06,
+       "with_reflection": 6.080507777833674e-06,
+       "note": "endpoints may be at different times"
+      },
+      "frames_common": {
+       "n": 2828,
+       "max_abs_d_rmsd_nat": 0.01885122060775757,
+       "max_abs_d_rmsd_mir": 0.01527094841003418,
+       "max_abs_d_gnorm": 4.132526397705078,
+       "note": "RMSD-to-native/mirror differences are a proxy; trajectory-to-trajectory Kabsch needs frame_x, which is not stored in these NPZ files"
+      },
+      "clip_time": {
+       "coarse": 4.875000000000062,
+       "fine": 4.871250000000102,
+       "abs_diff": 0.003749999999960174,
+       "bound_N_b_DT_c": "NOT ESTIMABLE (step array s[k] not stored; N_b unknown)",
+       "t_first_clip_diff": "NOT ESTIMABLE (s[k] not stored)",
+       "inside_outside_window": "NOT ESTIMABLE (clipping window needs s[k])"
+      },
+      "convergence_order": "NOT ESTIMABLE (2 DT levels only; >=3 required)"
+     },
+     {
+      "key_coarse": "ns15_a16_D500_dt0.0025_s0",
+      "key_fine": "ns15_a16_D500_dt0.00125_s0",
+      "DT_c": 0.0025,
+      "DT_f": 0.00125,
+      "endpoint": {
+       "U_end_diff": 6.754571901801398e-11,
+       "t_end_c": 24.2025,
+       "t_end_f": 24.20125,
+       "dt_end": 0.0012499999999988631,
+       "note": "endpoints are at different physical times when t_end differs"
+      },
+      "common_time_U": {
+       "n_common": 485,
+       "max_rel": 0.0011497767652075322,
+       "rms_rel": 0.00022731822081193117,
+       "t_of_max": 4.8500000000000005,
+       "normalisation": "U0-U_end (coarse)"
+      },
+      "x_final_rmsd": {
+       "SO3": 1.270313611262171e-07,
+       "with_reflection": 1.270313611262171e-07,
+       "note": "endpoints may be at different times"
+      },
+      "frames_common": {
+       "n": 2587,
+       "max_abs_d_rmsd_nat": 0.032656192779541016,
+       "max_abs_d_rmsd_mir": 0.023481249809265137,
+       "max_abs_d_gnorm": 7.139287948608398,
+       "note": "RMSD-to-native/mirror differences are a proxy; trajectory-to-trajectory Kabsch needs frame_x, which is not stored in these NPZ files"
+      },
+      "clip_time": {
+       "coarse": 4.875000000000062,
+       "fine": 4.8687500000001025,
+       "abs_diff": 0.006249999999959677,
+       "bound_N_b_DT_c": "NOT ESTIMABLE (step array s[k] not stored; N_b unknown)",
+       "t_first_clip_diff": "NOT ESTIMABLE (s[k] not stored)",
+       "inside_outside_window": "NOT ESTIMABLE (clipping window needs s[k])"
+      },
+      "convergence_order": "NOT ESTIMABLE (2 DT levels only; >=3 required)"
+     }
+    ],
+    "order": "NOT ESTIMABLE (2 levels)"
+   }
+  },
+  {
+   "item": "A2 provenance",
+   "evidence_state": "NOT VERIFIED",
+   "analysis_feasibility": "PARTIAL",
+   "result": "NOT VERIFIED",
+   "detail": {
+    "byte_integrity": {
+     "state": "VERIFIED",
+     "scope": "bytes match SHA256SUMS.txt shipped inside the same bundle (self-referential; not an independent root of trust)",
+     "problems": []
+    },
+    "hmac_authenticity": {
+     "state": "NOT VERIFIED",
+     "reason": "HMAC key not supplied; mac fields present but cannot be recomputed",
+     "files_with_mac": []
+    },
+    "approval_state": {
+     "state": "NOT VERIFIED",
+     "as_written_in_manifests": {
+      "public_conditions_manifest_01.json": {},
+      "public_conditions_manifest_02.json": {},
+      "public_conditions_manifest_03.json": {},
+      "public_conditions_manifest_04.json": {},
+      "public_conditions_manifest_05.json": {},
+      "public_conditions_manifest_06.json": {}
+     },
+     "note": "approval state A-D is unresolved; discrepancy between manifests is reported, not resolved"
+    },
+    "manifest_vs_execution": {
+     "state": "REVIEW",
+     "note": "B_preparation manifest and execution manifest coexist; relation not adjudicated here"
+    },
+    "gate_b_missing_inputs": {
+     "state": "NOT VERIFIED",
+     "expected_prefix_suffix": {
+      "aux_timing_33_candidate.csv": [
+       "fe2dbf7f",
+       "ae6925f"
+      ],
+      "mfd_rbsh_v2_freeze_manifest.sha256": [
+       "b02a7294",
+       "910830"
+      ]
+     },
+     "matches_in_bundle": {
+      "aux_timing_33_candidate.csv": [],
+      "mfd_rbsh_v2_freeze_manifest.sha256": []
+     },
+     "note": "no substitute file with a different hash is accepted"
+    }
+   }
+  }
+ ],
+ "verified": [
+  "byte integrity vs in-bundle SHA256SUMS",
+  "ledger/E_theta/y_theta consistency (140 labels)"
+ ],
+ "not_verified": [
+  "HMAC authenticity",
+  "approval state",
+  "Gate B missing inputs",
+  "independent third-party run"
+ ],
+ "environment": {
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "platform": "Linux-6.18.44-fc-v880-x86_64-with-glibc2.39",
+  "analysis_code_sha256": "393c76d2d74ff9fae8decf4f220541b5038be748ce654fed0a088aafbfadb9b1"
+ }
+}

@@ -1,0 +1,752 @@
+{
+ "ledger_sha256": "5d4016da490f699ab190b2c5add3ca185b8ca3b1ff6a2a85af9ab307bf76b05f",
+ "env": {
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "platform": "Linux-6.18.44-fc-v880-x86_64-with-glibc2.39"
+ },
+ "results": [
+  {
+   "key": "ns10_a16_D500_dt0.0025_s0",
+   "route": "B-FULL",
+   "file_sha256": "74e2faee2b24dcc3be06594caddd84c62107c66fe7ed01db01639b554c903e32",
+   "file_size": 434658,
+   "file_sha256_match": true,
+   "file_size_match": true,
+   "n_arrays": 12,
+   "array_order_ok": true,
+   "content_hash": "4589eb076f2d9f3be29d4ed1a1e6348ec356911d8e955f360e7117f403aad800",
+   "content_hash_match": true,
+   "indices_match": true,
+   "classes": {
+    "0.01": "mirror",
+    "0.03": "mirror",
+    "0.1": "mirror",
+    "0.3": "mirror"
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "terminal": {
+    "rn_end": 1.274743512534563,
+    "rm_end": 0.1043176175709582,
+    "m_end": 0.1043176175709582,
+    "anomaly": false,
+    "classes": {
+     "0.01": "mirror",
+     "0.03": "mirror",
+     "0.1": "mirror",
+     "0.3": "mirror"
+    }
+   },
+   "terminal_classes_match": true
+  },
+  {
+   "key": "ns12_a16_D500_dt0.0025_s0",
+   "route": "B-FULL",
+   "file_sha256": "61d3362e93a87c8d50d3447187c64c65e010a8345ba6321f18ec4f1ff571a23e",
+   "file_size": 508539,
+   "file_sha256_match": true,
+   "file_size_match": true,
+   "n_arrays": 12,
+   "array_order_ok": true,
+   "content_hash": "03af38644e35887f8ed445f6d6abe305694d1c5c2b999232724d7ee0e71f9ddc",
+   "content_hash_match": true,
+   "indices_match": true,
+   "classes": {
+    "0.01": "mirror",
+    "0.03": "mirror",
+    "0.1": "mirror",
+    "0.3": "mirror"
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "terminal": {
+    "rn_end": 1.0087085925727848,
+    "rm_end": 4.606070654313743e-11,
+    "m_end": 4.606070654313743e-11,
+    "anomaly": false,
+    "classes": {
+     "0.01": "mirror",
+     "0.03": "mirror",
+     "0.1": "mirror",
+     "0.3": "mirror"
+    }
+   },
+   "terminal_classes_match": true
+  },
+  {
+   "key": "ns16_a16_D500_dt0.0025_s0",
+   "route": "B-FULL",
+   "file_sha256": "b8313e475af733ed42f848c3d78350940ceaac73166aac3c55aa322b9d1c73a0",
+   "file_size": 480861,
+   "file_sha256_match": true,
+   "file_size_match": true,
+   "n_arrays": 12,
+   "array_order_ok": true,
+   "content_hash": "52cdffae6fef8ed621616d14d597f4fe01398bcaa3fdc2ba543c3dd7b14e7d65",
+   "content_hash_match": true,
+   "indices_match": true,
+   "classes": {
+    "0.01": "mirror",
+    "0.03": "mirror",
+    "0.1": "mirror",
+    "0.3": "mirror"
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "terminal": {
+    "rn_end": 0.9388214731342083,
+    "rm_end": 0.002039721657595019,
+    "m_end": 0.002039721657595019,
+    "anomaly": false,
+    "classes": {
+     "0.01": "mirror",
+     "0.03": "mirror",
+     "0.1": "mirror",
+     "0.3": "mirror"
+    }
+   },
+   "terminal_classes_match": true
+  },
+  {
+   "key": "ns17_a8_D500_dt0.0025_s0",
+   "route": "B-FULL",
+   "file_sha256": "080ab454db30bcef447bf8718b441ef0fccedb0f0a59d969834b808266f9e646",
+   "file_size": 473922,
+   "file_sha256_match": true,
+   "file_size_match": true,
+   "n_arrays": 12,
+   "array_order_ok": true,
+   "content_hash": "d6148d7d2bbabe7c5a880377bdddc9093309746d245949fc66bc31fb0a739b47",
+   "content_hash_match": true,
+   "indices_match": true,
+   "classes": {
+    "0.01": "native",
+    "0.03": "native",
+    "0.1": "native",
+    "0.3": "native"
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "terminal": {
+    "rn_end": 1.7996360370072195e-08,
+    "rm_end": 0.7930486453821528,
+    "m_end": 1.7996360370072195e-08,
+    "anomaly": false,
+    "classes": {
+     "0.01": "native",
+     "0.03": "native",
+     "0.1": "native",
+     "0.3": "native"
+    }
+   },
+   "terminal_classes_match": true
+  },
+  {
+   "key": "ns18_a16_D500_dt0.0025_s0",
+   "route": "B-FULL",
+   "file_sha256": "3e8952208bb79acbf3e2f53cc24c69eb3d9e3f87a098db8639b1f5cb90020aa9",
+   "file_size": 436042,
+   "file_sha256_match": true,
+   "file_size_match": true,
+   "n_arrays": 12,
+   "array_order_ok": true,
+   "content_hash": "36ee388d83f538657c7cb474293eb27c2547c770821ed082713ac63d06870484",
+   "content_hash_match": true,
+   "indices_match": true,
+   "classes": {
+    "0.01": "mirror",
+    "0.03": "mirror",
+    "0.1": "mirror",
+    "0.3": "mirror"
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "terminal": {
+    "rn_end": 1.1209565786021316,
+    "rm_end": 1.3190702854787132e-09,
+    "m_end": 1.3190702854787132e-09,
+    "anomaly": false,
+    "classes": {
+     "0.01": "mirror",
+     "0.03": "mirror",
+     "0.1": "mirror",
+     "0.3": "mirror"
+    }
+   },
+   "terminal_classes_match": true
+  },
+  {
+   "key": "ns18_a4_D500_dt0.0025_s0",
+   "route": "B-FULL",
+   "file_sha256": "e298a8ed89538f2692f3a95d07d2266a49db1fbfe95622ff090bb5dfeb85574c",
+   "file_size": 431057,
+   "file_sha256_match": true,
+   "file_size_match": true,
+   "n_arrays": 12,
+   "array_order_ok": true,
+   "content_hash": "47ac07c13a3d2ceb0c3ef4193e425d9885063d4a31bcfb921f545db4230429a5",
+   "content_hash_match": true,
+   "indices_match": true,
+   "classes": {
+    "0.01": "stagnation",
+    "0.03": "stagnation",
+    "0.1": "stagnation",
+    "0.3": "native"
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "terminal": {
+    "rn_end": 0.29753943976046304,
+    "rm_end": 1.080223690068502,
+    "m_end": 0.29753943976046304,
+    "anomaly": false,
+    "classes": {
+     "0.01": "stagnation",
+     "0.03": "stagnation",
+     "0.1": "stagnation",
+     "0.3": "native"
+    }
+   },
+   "terminal_classes_match": true
+  },
+  {
+   "key": "ns4_a16_D500_dt0.0025_s0",
+   "route": "B-FULL",
+   "file_sha256": "2cc27acba4d24845d5a2a94912a08c6251b8b80f4f468b73fa0b6bd3e28832d1",
+   "file_size": 428625,
+   "file_sha256_match": true,
+   "file_size_match": true,
+   "n_arrays": 12,
+   "array_order_ok": true,
+   "content_hash": "8b63301d19a0d2b5ee7afeba189dddad64cffbcf3f984e553bf8ec0e5d91eede",
+   "content_hash_match": true,
+   "indices_match": true,
+   "classes": {
+    "0.01": "native",
+    "0.03": "native",
+    "0.1": "native",
+    "0.3": "native"
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "terminal": {
+    "rn_end": 8.195461160033443e-10,
+    "rm_end": 0.7522844235491656,
+    "m_end": 8.195461160033443e-10,
+    "anomaly": false,
+    "classes": {
+     "0.01": "native",
+     "0.03": "native",
+     "0.1": "native",
+     "0.3": "native"
+    }
+   },
+   "terminal_classes_match": true
+  },
+  {
+   "key": "ns4_a8_D500_dt0.0025_s0",
+   "route": "B-FULL",
+   "file_sha256": "53c4ab3d4123b7ea1885ba290a73ad97b32155c0584ba908a010c6c5321ae6ce",
+   "file_size": 425149,
+   "file_sha256_match": true,
+   "file_size_match": true,
+   "n_arrays": 12,
+   "array_order_ok": true,
+   "content_hash": "5898bda08f6b64055dfdf5e7bae9a6b245fdad8a4f3dd71dd4e40b3385a4877f",
+   "content_hash_match": true,
+   "indices_match": true,
+   "classes": {
+    "0.01": "native",
+    "0.03": "native",
+    "0.1": "native",
+    "0.3": "native"
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "terminal": {
+    "rn_end": 4.502718654042082e-09,
+    "rm_end": 0.7522844237385372,
+    "m_end": 4.502718654042082e-09,
+    "anomaly": false,
+    "classes": {
+     "0.01": "native",
+     "0.03": "native",
+     "0.1": "native",
+     "0.3": "native"
+    }
+   },
+   "terminal_classes_match": true
+  },
+  {
+   "key": "ns5_a16_D500_dt0.0025_s0",
+   "route": "B-FULL",
+   "file_sha256": "272b668dd638e7b42203c0e24ed79503e6833d0b6ff2bc00513cc2ced36587ac",
+   "file_size": 819398,
+   "file_sha256_match": true,
+   "file_size_match": true,
+   "n_arrays": 12,
+   "array_order_ok": true,
+   "content_hash": "33864cb629b5f774a55d95b544cd1f2bfadda2d749c9e75386e6c1d8b06116e8",
+   "content_hash_match": true,
+   "indices_match": true,
+   "classes": {
+    "0.01": "stagnation",
+    "0.03": "stagnation",
+    "0.1": "other",
+    "0.3": "other"
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "terminal": {
+    "rn_end": 0.8808688336602063,
+    "rm_end": 0.993378821658657,
+    "m_end": 0.8808688336602063,
+    "anomaly": false,
+    "classes": {
+     "0.01": "stagnation",
+     "0.03": "stagnation",
+     "0.1": "other",
+     "0.3": "other"
+    }
+   },
+   "terminal_classes_match": true
+  },
+  {
+   "key": "ns10_a4_D500_dt0.0025_s0",
+   "route": "B-TIER1",
+   "file_size": 56083,
+   "file_size_match": true,
+   "file_sha256": "0c26437707c5f49ed80b66b86c94fd901666cbea7b8bfe30b61ef6975130e88e",
+   "keys": [
+    "U_at_frames",
+    "U_every10",
+    "frame_Q",
+    "frame_dense",
+    "frame_rmsd_mir",
+    "frame_rmsd_nat",
+    "frame_step",
+    "g_final",
+    "gnorm_at_frames",
+    "x_final"
+   ],
+   "terminal": {
+    "rn_end": 1.2700117012476932,
+    "rm_end": 0.004954025638856506,
+    "m_end": 0.004954025638856506,
+    "anomaly": false,
+    "classes": {
+     "0.01": "mirror",
+     "0.03": "mirror",
+     "0.1": "mirror",
+     "0.3": "mirror"
+    }
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+  },
+  {
+   "key": "ns12_a0_D500_dt0.0025_s0",
+   "route": "B-TIER1",
+   "file_size": 72042,
+   "file_size_match": true,
+   "file_sha256": "7a0496a0e6d7e49c96050cf8a1f3e949fe3a18225b38b32b45820eed476817f3",
+   "keys": [
+    "U_at_frames",
+    "U_every10",
+    "frame_Q",
+    "frame_dense",
+    "frame_rmsd_mir",
+    "frame_rmsd_nat",
+    "frame_step",
+    "g_final",
+    "gnorm_at_frames",
+    "x_final"
+   ],
+   "terminal": {
+    "rn_end": 0.00011154913815128274,
+    "rm_end": 1.0087387470021671,
+    "m_end": 0.00011154913815128274,
+    "anomaly": false,
+    "classes": {
+     "0.01": "native",
+     "0.03": "native",
+     "0.1": "native",
+     "0.3": "native"
+    }
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+  },
+  {
+   "key": "ns12_a4_D500_dt0.0025_s0",
+   "route": "B-TIER1",
+   "file_size": 59437,
+   "file_size_match": true,
+   "file_sha256": "c49749e8bd7aa0f0f071014cd42528f43bc536f50cfe850187a8974e2f13e0d5",
+   "keys": [
+    "U_at_frames",
+    "U_every10",
+    "frame_Q",
+    "frame_dense",
+    "frame_rmsd_mir",
+    "frame_rmsd_nat",
+    "frame_step",
+    "g_final",
+    "gnorm_at_frames",
+    "x_final"
+   ],
+   "terminal": {
+    "rn_end": 5.445482223706372e-10,
+    "rm_end": 1.0087085925891466,
+    "m_end": 5.445482223706372e-10,
+    "anomaly": false,
+    "classes": {
+     "0.01": "native",
+     "0.03": "native",
+     "0.1": "native",
+     "0.3": "native"
+    }
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+  },
+  {
+   "key": "ns12_a8_D500_dt0.0025_s0",
+   "route": "B-TIER1",
+   "file_size": 60889,
+   "file_size_match": true,
+   "file_sha256": "7ea729dc8f5e42a1545c86f852fb4c80e92446781c0b56a0094658fb35c5b623",
+   "keys": [
+    "U_at_frames",
+    "U_every10",
+    "frame_Q",
+    "frame_dense",
+    "frame_rmsd_mir",
+    "frame_rmsd_nat",
+    "frame_step",
+    "g_final",
+    "gnorm_at_frames",
+    "x_final"
+   ],
+   "terminal": {
+    "rn_end": 1.0087085925694752,
+    "rm_end": 8.320003284503615e-11,
+    "m_end": 8.320003284503615e-11,
+    "anomaly": false,
+    "classes": {
+     "0.01": "mirror",
+     "0.03": "mirror",
+     "0.1": "mirror",
+     "0.3": "mirror"
+    }
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+  },
+  {
+   "key": "ns15_a4_D500_dt0.0025_s0",
+   "route": "B-TIER1",
+   "file_size": 70296,
+   "file_size_match": true,
+   "file_sha256": "de4b369573fe23382dff597dce936750e0bb88b8cc0159e8e5f266c6677907ed",
+   "keys": [
+    "U_at_frames",
+    "U_every10",
+    "frame_Q",
+    "frame_dense",
+    "frame_rmsd_mir",
+    "frame_rmsd_nat",
+    "frame_step",
+    "g_final",
+    "gnorm_at_frames",
+    "x_final"
+   ],
+   "terminal": {
+    "rn_end": 0.0066495318817950885,
+    "rm_end": 1.0822199549882816,
+    "m_end": 0.0066495318817950885,
+    "anomaly": false,
+    "classes": {
+     "0.01": "native",
+     "0.03": "native",
+     "0.1": "native",
+     "0.3": "native"
+    }
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+  },
+  {
+   "key": "ns16_a8_D500_dt0.0025_s0",
+   "route": "B-TIER1",
+   "file_size": 84046,
+   "file_size_match": true,
+   "file_sha256": "a347b7c9ad6b05bdd3a29b0fd9172b073f36b6391a1ce6e1a920d4bb14ca4ed2",
+   "keys": [
+    "U_at_frames",
+    "U_every10",
+    "frame_Q",
+    "frame_dense",
+    "frame_rmsd_mir",
+    "frame_rmsd_nat",
+    "frame_step",
+    "g_final",
+    "gnorm_at_frames",
+    "x_final"
+   ],
+   "terminal": {
+    "rn_end": 0.8890261630517649,
+    "rm_end": 0.45941390474099714,
+    "m_end": 0.45941390474099714,
+    "anomaly": false,
+    "classes": {
+     "0.01": "mirror",
+     "0.03": "mirror",
+     "0.1": "mirror",
+     "0.3": "mirror"
+    }
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+  },
+  {
+   "key": "ns18_a8_D500_dt0.0025_s0",
+   "route": "B-TIER1",
+   "file_size": 55490,
+   "file_size_match": true,
+   "file_sha256": "7ec47a06d236dff04911107a904d1c1b626b44d161ebd9331ee9f0629c5d1c39",
+   "keys": [
+    "U_at_frames",
+    "U_every10",
+    "frame_Q",
+    "frame_dense",
+    "frame_rmsd_mir",
+    "frame_rmsd_nat",
+    "frame_step",
+    "g_final",
+    "gnorm_at_frames",
+    "x_final"
+   ],
+   "terminal": {
+    "rn_end": 1.1209565788112283,
+    "rm_end": 4.212697475906706e-09,
+    "m_end": 4.212697475906706e-09,
+    "anomaly": false,
+    "classes": {
+     "0.01": "mirror",
+     "0.03": "mirror",
+     "0.1": "mirror",
+     "0.3": "mirror"
+    }
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+  },
+  {
+   "key": "ns2_a4_D500_dt0.0025_s0",
+   "route": "B-TIER1",
+   "file_size": 63786,
+   "file_size_match": true,
+   "file_sha256": "a27efb0d4b65358793d5f64342362d837f5def1f52b9a36d3dcbd10154063e7e",
+   "keys": [
+    "U_at_frames",
+    "U_every10",
+    "frame_Q",
+    "frame_dense",
+    "frame_rmsd_mir",
+    "frame_rmsd_nat",
+    "frame_step",
+    "g_final",
+    "gnorm_at_frames",
+    "x_final"
+   ],
+   "terminal": {
+    "rn_end": 0.0016440852118071352,
+    "rm_end": 0.8174750865368752,
+    "m_end": 0.0016440852118071352,
+    "anomaly": false,
+    "classes": {
+     "0.01": "native",
+     "0.03": "native",
+     "0.1": "native",
+     "0.3": "native"
+    }
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+  },
+  {
+   "key": "ns4_a4_D500_dt0.0025_s0",
+   "route": "B-TIER1",
+   "file_size": 57676,
+   "file_size_match": true,
+   "file_sha256": "f3e7307799c3438bb1888489f6046b709b54925d07df8b29ef4ac1ec40a71995",
+   "keys": [
+    "U_at_frames",
+    "U_every10",
+    "frame_Q",
+    "frame_dense",
+    "frame_rmsd_mir",
+    "frame_rmsd_nat",
+    "frame_step",
+    "g_final",
+    "gnorm_at_frames",
+    "x_final"
+   ],
+   "terminal": {
+    "rn_end": 6.420174074258674e-07,
+    "rm_end": 0.7522844462638162,
+    "m_end": 6.420174074258674e-07,
+    "anomaly": false,
+    "classes": {
+     "0.01": "native",
+     "0.03": "native",
+     "0.1": "native",
+     "0.3": "native"
+    }
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+  },
+  {
+   "key": "ns9_a8_D500_dt0.0025_s0",
+   "route": "B-TIER1",
+   "file_size": 60894,
+   "file_size_match": true,
+   "file_sha256": "4c8cebfb3f4a8ebccc7889781e6f4c06cad35f2f2a8b832670d6ddf9d3e98192",
+   "keys": [
+    "U_at_frames",
+    "U_every10",
+    "frame_Q",
+    "frame_dense",
+    "frame_rmsd_mir",
+    "frame_rmsd_nat",
+    "frame_step",
+    "g_final",
+    "gnorm_at_frames",
+    "x_final"
+   ],
+   "terminal": {
+    "rn_end": 0.5542783955294752,
+    "rm_end": 8.306071008989534e-07,
+    "m_end": 8.306071008989534e-07,
+    "anomaly": false,
+    "classes": {
+     "0.01": "mirror",
+     "0.03": "mirror",
+     "0.1": "mirror",
+     "0.3": "mirror"
+    }
+   },
+   "classes_match": {
+    "0.01": true,
+    "0.03": true,
+    "0.1": true,
+    "0.3": true
+   },
+   "n_classes_match": 4,
+   "note": "tier-1 単独では元の12配列の内容ハッシュ(arrays_sha256)は再構成できない(U, D_inst, gnorm, s の全系列と frame_x を含まないため)"
+  }
+ ],
+ "status": "RAW_RESULTS_ONLY(判定は第三者・編成統括)"
+}
