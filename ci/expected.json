@@ -1,0 +1,9 @@
+{
+  "_comment": "Expected values of the approved baseline (main 1a4cc7a1b5e6a532a077d043824b24a0fbd308b3). A change in any value is reported as FAIL, never silently accepted.",
+  "public_manifest_entries": 190,
+  "kit_verifier": {"ok": 237, "zero_counters": ["mismatch","not_found","unreadable","special_state","path_resolution","unregistered","not_in_allowlist","unclassified","crc_errors","duplicate_paths","unsafe_paths","format_errors"], "regression_tests": 15},
+  "root_pytest_passed": 3,
+  "layer1": {"input_sha256": "8c3c53b001a0d155178afa5bd3cff23a774a10737d38552ab5dc747aa47c8d70", "trials": 300, "cells": 30, "bootstrap_replicates": 10000},
+  "layer2": {"b_full": "9/9", "b_tier1": "10/10", "ns15": "8/8", "class_comparisons": 108, "trajectories": 33, "with_trajectory_data": 21, "ledger_only": 12, "ledger_records": 33},
+  "layer3": {"tests": 36, "input_files": 18, "labels": 140}
+}
