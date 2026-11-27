@@ -6,7 +6,16 @@ authors:
   - family-names: Sendo
     given-names: Hazime
     orcid: "https://orcid.org/0009-0007-3285-0308"
-version: "2.0.0"
+version: "v2.0.0"
+date-released: "2026-11-27"
+doi: "10.5281/zenodo.24574797"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24574797"
+    description: "Version DOI: identifies exactly version v2.0.0 of this package."
+  - type: doi
+    value: "10.5281/zenodo.24574796"
+    description: "Concept DOI: identifies the record as a whole and always resolves to its latest version."
 license: Apache-2.0
 repository-code: "https://github.com/Hazime-Sendo/mfd-core"
 keywords:

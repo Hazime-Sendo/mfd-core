@@ -84,10 +84,16 @@ corrected in the manuscript; details in `docs/manuscript_corrections.md`.
 
 See `CITATION.cff` / `.zenodo.json`.
 
-- **Version 2.0.0** (this publication and reproducibility package): the DOI has **not been issued yet**. It will be added after the Zenodo record has been published.
-- The two DOIs below belong to the earlier, separate record of **version 1.0.0** of the verification code only. They are **not** the DOI of version 2.0.0.
+Please cite version 2.0.0 of this publication and reproducibility package as:
+
+> Sendo, H. (2026). *MFD Research and Reproducibility Package v2.0.0* (Version v2.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24574797
+
+- **Version DOI** (`10.5281/zenodo.24574797`): identifies exactly version v2.0.0 (published 2026-11-27). Use it to cite or reproduce this specific version.
+- **Concept DOI** (`10.5281/zenodo.24574796`): identifies the record as a whole and always resolves to its latest version. Use it to refer to the package in general.
+- The earlier, separate Zenodo record of **version 1.0.0** of the verification code keeps its own identifiers, preserved as identifiers of that earlier research asset. They are **not** the DOI of version 2.0.0; version 2.0.0 continues that record.
   - Version 1.0.0: https://doi.org/10.5281/zenodo.23263201
   - Concept DOI of that earlier record: https://doi.org/10.5281/zenodo.23263200
+- The published tag `v2.0.0` points to commit `f547105fbc5d16db5a2ab5fb41d48497b69b8a6b`. The archived package and the GitHub Release were created from that commit and do not contain the DOI text above, which was added to `main` afterwards.
 
 ## License
 
