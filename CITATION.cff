@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it together with the associated article."
-title: "MFD verification code: metriplectic discrete-gradient model of dissipation-capped relaxation"
+title: "MFD Research and Reproducibility Package: metriplectic discrete-gradient model of dissipation-capped relaxation"
 type: software
 authors:
   - family-names: Sendo

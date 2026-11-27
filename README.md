@@ -84,8 +84,10 @@ corrected in the manuscript; details in `docs/manuscript_corrections.md`.
 
 See `CITATION.cff` / `.zenodo.json`.
 
-- Version 1.0.0: https://doi.org/10.5281/zenodo.23263201
-- All versions (latest): https://doi.org/10.5281/zenodo.23263200
+- **Version 2.0.0** (this publication and reproducibility package): the DOI has **not been issued yet**. It will be added after the Zenodo record has been published.
+- The two DOIs below belong to the earlier, separate record of **version 1.0.0** of the verification code only. They are **not** the DOI of version 2.0.0.
+  - Version 1.0.0: https://doi.org/10.5281/zenodo.23263201
+  - Concept DOI of that earlier record: https://doi.org/10.5281/zenodo.23263200
 
 ## License
 
